@@ -1,0 +1,5 @@
+Scrivere un programma che legge il vostro nome e stampa “Buonasera [vostro nome e cognome], cosa posso fare per te?”
+Leggere un numero in input e stamparne l’ultima cifra.
+Leggere tre stringhe da terminale e controllare se sono uguali
+Leggere un numero da terminale e controllare se è pari; se lo è stampate “pari” a terminale, altrimenti leggete un secondo numero. Se il secondo numero è dispari stampate “entrambi dispari”, altrimenti stampate “primo dispari, secondo pari”
+Dati tre numeri identificare il minimo e il massimo

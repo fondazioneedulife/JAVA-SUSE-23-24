@@ -1,0 +1,24 @@
+Si realizzi un programma che acquisisca da tastiera un numero int e stampi il valore assoluto di tale numero, trasformare quindi in float e stamparne il numero diviso 2. Provare a vedere cosa si ottiene invece dividendo un intero per 2.
+
+Scrivere un programma che legga la temperatura in centigradi e mostri un messaggio che segua la seguente didascalia:
+T < 0: “clima gelido”
+T 0-10: “clima veramente freddo”
+T 10-20: “clima freddo”
+T 20-30: “Temperatura normale”
+T 30-40: “clima caldo”
+T 40: “clima veramente caldo”
+
+Scriviamo un programma che per prima cosa stampa la stringa “Dite amici ed entrate” e ci chiede di inserire una parola (che dovrebbe essere “amici”). Se sbagliamo il programma dovrà scrivere “Non succede nulla, ma sento una presenza che si avvicina” e dovrà chiederci nuovamente la parola; se sbaglieremo ancora dovrà scrivere “Non succede nulla, ma la presenza è molto vicina” e dovrà richiederci la parola. Se sbagliamo per la terza volta scriverà “Il mostro è qui, dobbiamo fuggire!” e poi il programma deve finire.
+Se in qualsiasi momento inseriamo la parola “amici” il programma deve stampare “Benvenuti a Moria” e deve terminare.
+
+Si scriva un programma che legga da tastiera i valori delle lunghezze dei
+tre lati di un triangolo (detti A, B e C), e determini:
+• se il triangolo è equilatero
+• se il triangolo è isoscele
+• se il triangolo è scaleno
+• se il triangolo è rettangolo.
+
+Dato l’importo da pagare ricevere in ingresso i soldi che vengono consegnati.
+Calcolare il resto.
+Indicare che banconote e monete utilizzare per restituire il resto.
+Gestire i vari tagli di banconota di uso corrente

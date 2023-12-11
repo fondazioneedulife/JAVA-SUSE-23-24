@@ -1,0 +1,17 @@
+Stampare a terminale il vostro nome, il vostro cognome e la vostra data di nascita su 3 righe diverse
+Provate a rifare il primo esercizio con una sola istruzione
+ 
+Scrivere un programma che stampa a terminale la seguente frase
+395*17=  e sulla stessa riga stampa il risultato.
+
+Creare un programma che mostri l’utilizzo delle 5 operazioni viste a lezione con due numeri a vostra scelta
+
+Stampare l’ultima cifra del numero 396 (6), utilizzando solo l’operatore modulo.
+
+Creare un programma che calcola dato l’anno di nascita calcola l’età dell’individuo
+
+Stampare la tabella della verità della funzione AND usando System.out.println
+
+Date due stringhe nome e cognome concatenarle e stampare il nome completo della persona, stamparne inoltre le iniziali attraverso la funzione charAt
+
+Verificare che due stringhe abbiano le stesse lettere anche se case e spazi iniziali e finali diversi (equals(), trim() e UpperCase())

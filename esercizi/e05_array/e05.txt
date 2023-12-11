@@ -1,0 +1,13 @@
+Memorizzare in un array di dieci posizioni i primi dieci numeri naturali.
+
+Dopo aver letto e memorizzato 8 numeri in un array, calcolare la somma di quelli negativi e memorizzare zero al loro posto.
+
+Leggere un array di interi di 5 posizioni e dopo averlo letto cercare al suo interno il massimo e scrivere il massimo e la posizione della cella in cui è memorizzato.
+
+Inizializzare un array di interi di 10 posizioni inline e dire se in tutte le posizioni pari dell’array è memorizzato un numero pari.
+
+Stampare i numeri pari da 1 a 100, poi stampare i numeri dispari da 1 a 40
+
+Generare un array lungo 20 di numeri casuali compresi tra n ed m inseriti da utente, a questo punto stampare l’array e successivamente stamparlo capovolto (dall’ultimo elemento al primo) e raddoppiando ogni numero 
+
+Scrivere un programma che individui il valore massimo e minimo all’interno di un array lungo n (inserito da utente) di numeri generati casualmente da -8 a 15.
