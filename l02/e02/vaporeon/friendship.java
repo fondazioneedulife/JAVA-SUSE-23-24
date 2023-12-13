@@ -17,6 +17,7 @@ public class friendship {
 
         System.out.println("\nSiete diventati AmIcI!!!!!");
 
+        sc.close();
     }
 
     static Boolean red(Scanner sc)
@@ -82,13 +83,16 @@ public class friendship {
     static boolean green(Scanner sc)
     {
         int n = 0;
+        Scanner scan = new Scanner(System.in);
         String[] attivita = new String[6];
         boolean rimani = true;
         System.out.println("Allora svaghiamoci un po'... ");
+
         do{
             System.out.println("...cos'altro ti va di fare? ");
-            attivita[n] = sc.nextLine();
-            System.out.println(attivita[n] + "\nÈ una cosa che va di fare anche a me?\n1. Per si\n0. Per no");
+
+            attivita[n] = scan.nextLine();
+            System.out.println("\n" + attivita[n] + " è una cosa che va di fare anche a me?\n1. Per si\n0. Per no");
             int scelta = sc.nextInt();
             if (scelta == 1) {
                 System.out.println("E facciamolo assieme, dai... ");
@@ -104,6 +108,7 @@ public class friendship {
                 }
             }
         } while (rimani);
+        scan.close();
         return true;
     }
 
