@@ -43,15 +43,18 @@ public class friendship {
 
     }
 
-    static void blue(Scanner sc)
+    static Boolean blue(Scanner sc)
     {
+        Boolean flag = false;
         System.out.println("E di bere qualcosa di caldo?");
-        sc = sc.nextInt();
+        Boolean choice = (sc.nextInt() == 1) ? true:false;
 
-        if (sc)
+        if (choice)
         {
             System.out.println("E di bere qualcosa di caldo?");
-            switch(sc)
+            int selection = sc.nextInt();
+
+            switch(selection)
             {
                 case 0:
                     System.out.println("Fatevi `sto tè");
@@ -66,12 +69,10 @@ public class friendship {
                     break;
             }
 
-            return true;
+            flag = true;
 
         }
-        else {
-            green();
-        }
+        return flag;
     }
 
     static boolean green(Scanner sc)
