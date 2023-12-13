@@ -55,20 +55,20 @@ public class friendship {
 
         if (choice)
         {
-            System.out.println("E di bere qualcosa di caldo?");
+            System.out.println("Scegli:\n1. Tè\n2. Caffè\n3. Cioccolata");
             int selection = sc.nextInt();
 
             switch(selection)
             {
-                case 0:
+                case 1:
                     System.out.println("Fatevi `sto tè");
                     break;
 
-                case 1:
+                case 2:
                     System.out.println("Fatevi `sto coffee");
                     break;
 
-                case 2:
+                case 3:
                     System.out.println("Fatevi `sta cioccolata");
                     break;
             }
