@@ -16,7 +16,7 @@ class algoritmo {
 
         if (choice == 0) {
             System.out.println("Lascia un messaggio");
-            String messaggio = sc.next();
+            String msg = sc.next();
             System.out.println("Aspetta di essere richiamato");
         } else {
             System.out.println("Ti va di mangiare qualcosa insieme?");
