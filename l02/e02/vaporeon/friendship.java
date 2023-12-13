@@ -55,7 +55,25 @@ public class friendship {
 
     static boolean green()
     {
-        
+        int n = 0;
+        boolean rimani = true;
+        System.out.println("Allora svaghiamoci un po'... ");
+        do{
+            System.out.println("...cos'altro ti va di fare? ");
+            // String attivita = sc.nextBoolean();
+            System.out.println("è una cosa che va di fare anche a me? ");
+            boolean scelta = sc.nextBoolean();
+            if (scelta) {
+                System.out.println("E facciamolo assieme, dai... ");
+                rimani = false;
+            } else {
+                n++;
+                if (n > 6){
+                    System.out.println("Scegli fra tutte le opzioni quella che ti appare meno disumana\nfattela piacere");
+                    rimani = false;
+                }
+            }
+        } while (rimani);
         return true;
     }
 
