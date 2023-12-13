@@ -3,7 +3,7 @@ import java.util.Scanner;
 
 public class torredellamorte{
     public static void main(String[] args){
-    
+        Scanner sc = new Scanner(System.in);
     }
     static int function1(){
 
