@@ -1,14 +1,21 @@
 package l02.e02.vaporeon;
 import java.util.Scanner;
-<<<<<<< Updated upstream
-=======
 
->>>>>>> Stashed changes
 
 public class friendship {
     public static void main(String[] args)
     {
         Scanner sc = new Scanner(System.in);
+
+        if(!red(sc)){
+            if(!blue(sc)){
+                if(!green(sc)){
+
+                }
+            }
+        }
+
+        System.out.println("Siete diventati AmIcI!!!!!");
 
     }
 
@@ -48,20 +55,20 @@ public class friendship {
 
         if (choice)
         {
-            System.out.println("E di bere qualcosa di caldo?");
+            System.out.println("Scegli:\n1. Tè\n2. Caffè\n3. Cioccolata");
             int selection = sc.nextInt();
 
             switch(selection)
             {
-                case 0:
+                case 1:
                     System.out.println("Fatevi `sto tè");
                     break;
 
-                case 1:
+                case 2:
                     System.out.println("Fatevi `sto coffee");
                     break;
 
-                case 2:
+                case 3:
                     System.out.println("Fatevi `sta cioccolata");
                     break;
             }
@@ -75,18 +82,18 @@ public class friendship {
     static boolean green(Scanner sc)
     {
         int n = 0;
-        String[] attivita;
+        String[] attivita = new String[6];
         boolean rimani = true;
         System.out.println("Allora svaghiamoci un po'... ");
         do{
             System.out.println("...cos'altro ti va di fare? ");
             attivita[n] = sc.nextLine();
-            System.out.println(attivita[n] + " è una cosa che va di fare anche a me? ('true' per si e 'false' per no) ");
-            boolean scelta;
+            System.out.println(attivita[n] + " è una cosa che va di fare anche a me? ('1' per si e '0' per no) ");
+            int scelta;
             do{
-                scelta = sc.nextBoolean();
-            } while (scelta || !scelta);
-            if (scelta) {
+                scelta = sc.nextInt();
+            } while (scelta == 0 || scelta == 1);
+            if (scelta == 1) {
                 System.out.println("E facciamolo assieme, dai... ");
                 rimani = false;
             } else {
