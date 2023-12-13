@@ -26,7 +26,7 @@ public class friendship {
         
         System.out.println("Componi il numero della persona");
         
-        System.out.println("E' in casa?\nInserisci:\n1. se è in casa\n0. se non c'è");
+        System.out.println("E' in casa?\nInserisci:\n1. Se è in casa\n0. Se non c'è");
         scelta = sc.nextInt();
         
         if(scelta == 0){
@@ -34,7 +34,7 @@ public class friendship {
             System.out.println("Aspetta di essere richiamato");
         }
 
-        System.out.println("Ti va di mangiare qualcosa insieme?");
+        System.out.println("\nTi va di mangiare qualcosa insieme?");
             
         System.out.println("Ascolta la risposta\nInserisci:\n1. se accetta\n0. se rifiuta");
         scelta = sc.nextInt();
