@@ -30,7 +30,7 @@ public class friendship {
             switch(sc)
             {
                 case 0:
-                    System.out.println("Fatevi `sto te");
+                    System.out.println("Fatevi `sto tè");
                     break;
 
                 case 1:
@@ -43,7 +43,7 @@ public class friendship {
             }
 
         return true;
-        
+
         }
         else {
             green();
