@@ -12,7 +12,7 @@ public class friendship {
 
     }
 
-    static int red()
+    static int red(Scanner sc)
     {
         int scelta;
         int flag = 0;
@@ -35,12 +35,9 @@ public class friendship {
         if(scelta == 1){
             System.out.println("Mangiate qualcosa insieme");
             flag = 1;
-            return flag;
         }
-        else if(scelta == 0){
-            return flag;
-        }
-
+        
+        return flag;
     }
 
     static void blue(int sc)
