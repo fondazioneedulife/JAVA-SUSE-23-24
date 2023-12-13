@@ -74,12 +74,13 @@ public class friendship {
     static boolean green(Scanner sc)
     {
         int n = 0;
+        String[] attivita;
         boolean rimani = true;
         System.out.println("Allora svaghiamoci un po'... ");
         do{
             System.out.println("...cos'altro ti va di fare? ");
-            // String attivita = sc.nextBoolean();
-            System.out.println("è una cosa che va di fare anche a me? ");
+            attivita[n] = sc.nextLine();
+            System.out.println(attivita[n] + " è una cosa che va di fare anche a me? ");
             boolean scelta = sc.nextBoolean();
             if (scelta) {
                 System.out.println("E facciamolo assieme, dai... ");
@@ -87,7 +88,10 @@ public class friendship {
             } else {
                 n++;
                 if (n > 6){
-                    System.out.println("Scegli fra tutte le opzioni quella che ti appare meno disumana\nfattela piacere");
+                    System.out.println("Scegli fra tutte le opzioni quella che ti appare meno disumana e fattela piacere");
+                    for (int i = 0; i < n; i++){
+                        System.out.println(attivita[i]);
+                    }
                     rimani = false;
                 }
             }
