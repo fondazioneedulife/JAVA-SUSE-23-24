@@ -6,5 +6,5 @@ class algoritmo {
         String diocane;
         String bus;
     }
-
+ciasociaoc
 }
