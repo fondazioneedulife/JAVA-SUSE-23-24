@@ -40,11 +40,11 @@ public class friendship {
         return flag;
     }
 
-    static Boolean blue(Scanner sc)
+    static boolean blue(Scanner sc)
     {
-        Boolean flag = false;
+        boolean flag = false;
         System.out.println("E di bere qualcosa di caldo?");
-        Boolean choice = (sc.nextInt() == 1) ? true:false;
+        boolean choice = (sc.nextInt() == 1) ? true:false;
 
         if (choice)
         {
