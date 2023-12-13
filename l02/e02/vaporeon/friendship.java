@@ -18,8 +18,7 @@ public class friendship {
 
     }
 
-    static void blue(int sc)
-
+    static void blue(Scanner sc)
     {
         System.out.println("E di bere qualcosa di caldo?");
         sc = sc.nextInt();
@@ -42,16 +41,12 @@ public class friendship {
                     break;
             }
 
-        return true;
+            return true;
 
         }
         else {
             green();
         }
-
-        
-
-
     }
 
     static boolean green()
