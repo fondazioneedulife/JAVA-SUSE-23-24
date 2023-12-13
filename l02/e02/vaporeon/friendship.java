@@ -50,7 +50,7 @@ public class friendship {
     static boolean blue(Scanner sc)
     {
         boolean flag = false;
-        System.out.println("\nE di bere qualcosa di caldo?\n(Inserisci: 1. se accetta, 0. se rifiuta)");
+        System.out.println("\nE di bere qualcosa di caldo?\nInserisci:\n1. se accetta\n0. se rifiuta");
         boolean choice = (sc.nextInt() == 1) ? true:false;
 
         if (choice)
@@ -88,7 +88,7 @@ public class friendship {
         do{
             System.out.println("...cos'altro ti va di fare? ");
             attivita[n] = sc.nextLine();
-            System.out.println(attivita[n] + " è una cosa che va di fare anche a me? ('1' per si e '0' per no) ");
+            System.out.println(attivita[n] + "\nÈ una cosa che va di fare anche a me?\n1. Per si\n0. Per no");
             int scelta = sc.nextInt();
             if (scelta == 1) {
                 System.out.println("E facciamolo assieme, dai... ");
