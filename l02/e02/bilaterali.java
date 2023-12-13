@@ -1,4 +1,3 @@
-
 package e02;
 public class bilaterali {
     public static void main(String[] args) {
