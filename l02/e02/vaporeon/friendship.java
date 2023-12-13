@@ -54,7 +54,7 @@ public class friendship {
 
     }
 
-    static boolean green()
+    static boolean green(Scanner sc)
     {
         int n = 0;
         boolean rimani = true;
