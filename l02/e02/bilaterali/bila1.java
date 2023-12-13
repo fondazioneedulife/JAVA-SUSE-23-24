@@ -10,11 +10,9 @@ import java.util.Scanner;
 
             if (bere_caldo == 0){
                 System.out.println("turno di fra");
-                
 
             }
             else if (bere_caldo == 1){
-                
                 
                 System.out.println("scegli tra the, caffè e cioccolata");
                 System.out.println("quale preferisci? (0 per il the, 1 per il caffè, 2 per la cioccolata)");
