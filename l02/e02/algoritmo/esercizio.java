@@ -22,8 +22,7 @@ public class esercizio {
                 int b = sc.nextInt();
                 if(b ==1){
                     System.out.println("Cosa vuoi bere? caffè, cioccolata, té");
-                    int bere = sc.nextInt();
-                    System.out.println("Ok vieni che beviamo"+bere);
+                System.out.println("siete diventati amici ;)");
                 }
                 if(b ==0){
                     System.out.println("Allora svaghiamoci un pò cos'altro ti va di fare?");
