@@ -5,9 +5,9 @@ public class esercizio {
     public static void main(String[] args){
         Scanner sc = new Scanner (System.in);
         System.out.println("inserisci il numero di telefono ");
-        int numero= sc.nextlnt(); // read user input
+        int numero = sc.nextInt(); // read user input
         System.out.println(" È in casa ? 1 = Sì 0 = No");
-        int risposta= sc.nextlnt();
+        int risposta= sc.nextInt();
         if(risposta == 1)
         {
             System.out.println("TI va di mangiare qualcosa fuori");
@@ -23,7 +23,11 @@ public class esercizio {
                 if(b ==1){
                     System.out.println("Cosa vuoi bere? caffè, cioccolata, té");
                     int bere = sc.nextInt();
-                    System.out.println("Ok vieni che beviamo" bere);
+                    System.out.println("Ok vieni che beviamo"+bere);
+                }
+                if(b ==0){
+                    System.out.println("Allora svaghiamoci un pò cos'altro ti va di fare?");
+                   
                 }
             }
        
@@ -32,4 +36,5 @@ public class esercizio {
             System.out.println("lascia un messaggio, aspetto di essere richiamato");
         }
     
+    }
 }
