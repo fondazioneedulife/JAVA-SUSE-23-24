@@ -81,7 +81,10 @@ public class friendship {
             System.out.println("...cos'altro ti va di fare? ");
             attivita[n] = sc.nextLine();
             System.out.println(attivita[n] + " è una cosa che va di fare anche a me? ('true' per si e 'false' per no) ");
-            boolean scelta = sc.nextBoolean();
+            boolean scelta;
+            do{
+                scelta = sc.nextBoolean();
+            } while (scelta || !scelta);
             if (scelta) {
                 System.out.println("E facciamolo assieme, dai... ");
                 rimani = false;
