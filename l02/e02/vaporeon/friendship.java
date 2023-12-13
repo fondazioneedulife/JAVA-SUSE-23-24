@@ -26,7 +26,7 @@ public class friendship {
         
         System.out.println("Componi il numero della persona");
         
-        System.out.println("E' in casa?\n(Inserisci:\n1. se è in casa\n0. se non c'è)");
+        System.out.println("E' in casa?\nInserisci:\n1. Se è in casa\n0. Se non c'è");
         scelta = sc.nextInt();
         
         if(scelta == 0){
@@ -34,9 +34,9 @@ public class friendship {
             System.out.println("Aspetta di essere richiamato");
         }
 
-        System.out.println("Ti va di mangiare qualcosa insieme?");
+        System.out.println("\nTi va di mangiare qualcosa insieme?");
             
-        System.out.println("Ascolta la risposta (Inserisci:\n1. se accetta\n0. se rifiuta)");
+        System.out.println("Ascolta la risposta\nInserisci:\n1. se accetta\n0. se rifiuta");
         scelta = sc.nextInt();
 
         if(scelta == 1){
@@ -88,12 +88,9 @@ public class friendship {
         do{
             System.out.println("...cos'altro ti va di fare? ");
             attivita[n] = sc.nextLine();
-            System.out.println(attivita[n] + " è una cosa che va di fare anche a me? ('true' per si e 'false' per no) ");
-            boolean scelta;
-            do{
-                scelta = sc.nextBoolean();
-            } while (scelta || !scelta);
-            if (scelta) {
+            System.out.println(attivita[n] + " è una cosa che va di fare anche a me? ('1' per si e '0' per no) ");
+            int scelta = sc.nextInt();
+            if (scelta == 1) {
                 System.out.println("E facciamolo assieme, dai... ");
                 rimani = false;
             } else {
