@@ -12,10 +12,10 @@ public class friendship {
 
     }
 
-    static int red(Scanner sc)
+    static Boolean red(Scanner sc)
     {
         int scelta;
-        int flag = 0;
+        Boolean flag = false;
         
         System.out.println("Componi il numero della persona");
         
@@ -34,7 +34,7 @@ public class friendship {
 
         if(scelta == 1){
             System.out.println("Mangiate qualcosa insieme");
-            flag = 1;
+            flag = true;
         }
         
         return flag;
