@@ -12,14 +12,35 @@ public class friendship {
 
     }
 
-    static void red()
+    static int red(Scanner sc)
     {
+        int scelta;
+        int flag = 0;
         
+        System.out.println("Componi il numero della persona");
+        
+        System.out.println("E' in casa? (Inserisci: 1. se è in casa, 0. se non c'è)");
+        scelta = sc.nextInt();
+        
+        if(scelta == 0){
+            System.out.println("Lascia un messaggio");
+            System.out.println("Aspetta di essere richiamato");
+        }
 
+        System.out.println("Ti va di mangiare qualcosa insieme?");
+            
+        System.out.println("Ascolta la risposta (Inserisci: 1. se accetta, 0. se rifiuta)");
+        scelta = sc.nextInt();
+
+        if(scelta == 1){
+            System.out.println("Mangiate qualcosa insieme");
+            flag = 1;
+        }
+        
+        return flag;
     }
 
-    static void blue(int sc)
-
+    static void blue(Scanner sc)
     {
         System.out.println("E di bere qualcosa di caldo?");
         sc = sc.nextInt();
@@ -42,16 +63,12 @@ public class friendship {
                     break;
             }
 
-        return true;
+            return true;
 
         }
         else {
             green();
         }
-
-        
-
-
     }
 
     static boolean green(Scanner sc)
