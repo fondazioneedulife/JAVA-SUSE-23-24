@@ -1,9 +1,6 @@
 package l02.e02.vaporeon;
 import java.util.Scanner;
-<<<<<<< Updated upstream
-=======
 
->>>>>>> Stashed changes
 
 public class friendship {
     public static void main(String[] args)
@@ -85,7 +82,7 @@ public class friendship {
     static boolean green(Scanner sc)
     {
         int n = 0;
-        String[] attivita;
+        String[] attivita = new String[6];
         boolean rimani = true;
         System.out.println("Allora svaghiamoci un po'... ");
         do{
