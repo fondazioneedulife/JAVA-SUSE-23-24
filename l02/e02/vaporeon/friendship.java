@@ -19,10 +19,10 @@ public class friendship {
 
     }
 
-    static void green()
+    static boolean green()
     {
-
-
+        
+        return true;
     }
 
 
