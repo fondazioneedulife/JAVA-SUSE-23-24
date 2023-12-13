@@ -15,8 +15,9 @@ public class friendship {
             }
         }
 
-        System.out.println("Siete diventati AmIcI!!!!!");
+        System.out.println("\nSiete diventati AmIcI!!!!!");
 
+        sc.close();
     }
 
     static Boolean red(Scanner sc)
@@ -26,7 +27,7 @@ public class friendship {
         
         System.out.println("Componi il numero della persona");
         
-        System.out.println("E' in casa? (Inserisci: 1. se è in casa, 0. se non c'è)");
+        System.out.println("E' in casa?\nInserisci:\n1. Se è in casa\n0. Se non c'è");
         scelta = sc.nextInt();
         
         if(scelta == 0){
@@ -34,9 +35,9 @@ public class friendship {
             System.out.println("Aspetta di essere richiamato");
         }
 
-        System.out.println("Ti va di mangiare qualcosa insieme?");
+        System.out.println("\nTi va di mangiare qualcosa insieme?");
             
-        System.out.println("Ascolta la risposta (Inserisci: 1. se accetta, 0. se rifiuta)");
+        System.out.println("Ascolta la risposta\nInserisci:\n1. se accetta\n0. se rifiuta");
         scelta = sc.nextInt();
 
         if(scelta == 1){
@@ -50,12 +51,12 @@ public class friendship {
     static boolean blue(Scanner sc)
     {
         boolean flag = false;
-        System.out.println("E di bere qualcosa di caldo?");
+        System.out.println("\nE di bere qualcosa di caldo?\nInserisci:\n1. se accetta\n0. se rifiuta");
         boolean choice = (sc.nextInt() == 1) ? true:false;
 
         if (choice)
         {
-            System.out.println("Scegli:\n1. Tè\n2. Caffè\n3. Cioccolata");
+            System.out.println("\nScegli:\n1. Tè\n2. Caffè\n3. Cioccolata");
             int selection = sc.nextInt();
 
             switch(selection)
@@ -82,17 +83,17 @@ public class friendship {
     static boolean green(Scanner sc)
     {
         int n = 0;
+        Scanner scan = new Scanner(System.in);
         String[] attivita = new String[6];
         boolean rimani = true;
         System.out.println("Allora svaghiamoci un po'... ");
+
         do{
             System.out.println("...cos'altro ti va di fare? ");
-            attivita[n] = sc.nextLine();
-            System.out.println(attivita[n] + " è una cosa che va di fare anche a me? ('1' per si e '0' per no) ");
-            int scelta;
-            do{
-                scelta = sc.nextInt();
-            } while (scelta == 0 || scelta == 1);
+
+            attivita[n] = scan.nextLine();
+            System.out.println("\n" + attivita[n] + " è una cosa che va di fare anche a me?\n1. Per si\n0. Per no");
+            int scelta = sc.nextInt();
             if (scelta == 1) {
                 System.out.println("E facciamolo assieme, dai... ");
                 rimani = false;
@@ -107,6 +108,7 @@ public class friendship {
                 }
             }
         } while (rimani);
+        scan.close();
         return true;
     }
 
