@@ -1,11 +1,22 @@
-package e02;
+package bilaterali;
 public class bilaterali {
     public static void main(String[] args) {
-        int a = function01(2, 4);
-        System.out.println(a);
+
     }
-    static int function01(int b, int c){
-        int d = b + c ;
-        return d;
+    static int functionRed(){
+
+    }
+    static int functionBleu(){
+
+    }
+    static int functionGreen(){
+        if(n == 0){
+            System.out.println("allora svegliamoci un po, ");
+            do{
+                System.out.println("cos'altro ti va di fare?");
+            }while()
+            
+
+        }
     }
 }
