@@ -1,6 +1,4 @@
 
-package  ;
-
 import java.util.Scanner; 
 
 public class esercizio {
@@ -21,7 +19,12 @@ public class esercizio {
             }
             if (a == 0 ) {
                 System.out.println("vuoi bere qualcosa ?");
-                
+                int b = sc.nextInt();
+                if(b ==1){
+                    System.out.println("Cosa vuoi bere? caffè, cioccolata, té");
+                    int bere = sc.nextInt();
+                    System.out.println("Ok vieni che beviamo" bere);
+                }
             }
        
         }

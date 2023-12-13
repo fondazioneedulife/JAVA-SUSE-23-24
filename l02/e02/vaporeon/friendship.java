@@ -10,6 +10,16 @@ public class friendship {
     {
         Scanner sc = new Scanner(System.in);
 
+        if(!red(sc)){
+            if(!blue(sc)){
+                if(!green(sc)){
+
+                }
+            }
+        }
+
+        System.out.println("Siete diventati AmIcI!!!!!");
+
     }
 
     static Boolean red(Scanner sc)
