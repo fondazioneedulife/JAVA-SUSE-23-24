@@ -11,11 +11,10 @@ public class bilaterali {
         Scanner sc = new Scanner(System.in);
         Scanner sci = new Scanner(System.in);
 
-        String numeroTel;
         int risposta;
 
         System.out.println("Componi il numero di telefono della persona: ");
-        numeroTel = sc.next();
+        sc.next();
         System.out.println("\n");
 
         System.out.println("La persona è in casa? (0/no 1/si) ");
