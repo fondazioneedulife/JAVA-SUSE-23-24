@@ -4,8 +4,6 @@ import java.util.Scanner;
 public class bilaterali {
     public static void main(String[] args) {
        functionRed();
-       functionBlue();
-       functionGreen();
     }
 
 
