@@ -27,6 +27,7 @@ public class bilaterali {
         }
         inCasa();
         sc.close();
+        sci.close();
     }
         public static void inCasa(){
             Scanner sc = new Scanner(System.in);
@@ -56,8 +57,7 @@ public class bilaterali {
     static void functionBlue(){
             Scanner sc=new Scanner(System.in);
             System.out.println("e ti piacerebbe qualcosa di caldo? (1/si, 0/no)");
-            int bere_caldo = sc.nextInt();
-            int n = 1; 
+            int bere_caldo = sc.nextInt(); 
             // 1/si, 0/no
             if (bere_caldo == 0){
                 System.out.println("turno di fra");
@@ -79,12 +79,13 @@ public class bilaterali {
 
                 }
             }
+            sc.close();
     }
 
     static void functionGreen(){
         Scanner sc=new Scanner(System.in);
         System.out.println("allora svagliamoci un po, ");
-        int k;
+        int k = 0;
         int i = 0;
         do{
             System.out.println("cos'altro ti va di fare? \nmi piace? (0/no 1/si)");
@@ -106,6 +107,7 @@ public class bilaterali {
             }
 
         }while(k==0);
+        sc.close();
             
     }
 }
