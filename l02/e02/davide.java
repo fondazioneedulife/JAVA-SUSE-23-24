@@ -77,44 +77,62 @@ public class davide {
         Scanner sc = new Scanner(System.in);
         String scelta = "";
         String risposte = "";
-        List listascelte = new ArrayList();
+        List<String> listascelte = new ArrayList();
         for (int i = 0; i < 6; i++) {
             if (scelta.equals("si")) {
                 fine();
                 break;
             }
-            System.out.println(i);
             System.out.println("...Cos'altro di va di fare?");
             risposte = sc.nextLine();
             listascelte.add(risposte);
             System.out.println("E' una cosa che va di fare anche a me?");
             scelta = sc.nextLine();
-            if (i == 5){
-                possibilita(listascelte);
+            if (i == 5) {
+                String scelta1 = "";
+                System.out.println("Scegli tra una di queste opzioni e fattela piacere");
+                do {
+                    for (String elemento : listascelte) {
+                        System.out.println("Vorresti " + elemento + "?");
+                        Scanner sxc = new Scanner(System.in);
+                        scelta1 = sxc.nextLine();
+                        if (scelta1.equals("si")) {
+                            System.out.println("Svagatevi un po' insieme");
+                            System.out.println("Inizio amicizia!");
+                            break;
+                        }
+
+                    }
+                } while (!(scelta1.equals("si")));
             }
+
         }
-        return scelta;
+        return risposte;
     }
-    static String possibilita(List listascelte){
+
+    static String possibilita(List listascelte) {
         Scanner sc = new Scanner(System.in);
-        String scelta = "";  
+        String scelta = "";
         System.out.println("Scegli fra tutte le opzioni quella che ti sembra essere la meno disumana");
         System.out.println(listascelte.toString());
         scelta = sc.nextLine();
-        /*switch (scelta) {
-            case listascelte[]: 
-                
-                break;
-        
-            default:
-                break;
-        } */
+        /*
+         * switch (scelta) {
+         * case listascelte[]:
+         * 
+         * break;
+         * 
+         * default:
+         * break;
+         * }
+         */
         System.out.println("Fattela piacere");
         System.out.println("Svagatevi un po' insieme");
         System.out.println("Inizio amicizia!");
-        return scelta; 
+        return scelta;
     }
-    static String fine(){
+
+    static String fine() {
         String scelta = "";
         System.out.println("E facciamola insieme dai...");
         System.out.println("Svagatevi un po' insieme");
