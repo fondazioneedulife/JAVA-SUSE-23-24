@@ -97,8 +97,7 @@ public class davide {
                         Scanner sxc = new Scanner(System.in);
                         scelta1 = sxc.nextLine();
                         if (scelta1.equals("si")) {
-                            System.out.println("Svagatevi un po' insieme");
-                            System.out.println("Inizio amicizia!");
+                            fine();
                             break;
                         }
 
