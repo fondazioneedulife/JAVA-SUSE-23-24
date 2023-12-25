@@ -110,28 +110,6 @@ public class davide {
         return risposte;
     }
 
-    static String possibilita(List listascelte) {
-        Scanner sc = new Scanner(System.in);
-        String scelta = "";
-        System.out.println("Scegli fra tutte le opzioni quella che ti sembra essere la meno disumana");
-        System.out.println(listascelte.toString());
-        scelta = sc.nextLine();
-        /*
-         * switch (scelta) {
-         * case listascelte[]:
-         * 
-         * break;
-         * 
-         * default:
-         * break;
-         * }
-         */
-        System.out.println("Fattela piacere");
-        System.out.println("Svagatevi un po' insieme");
-        System.out.println("Inizio amicizia!");
-        return scelta;
-    }
-
     static String fine() {
         String scelta = "";
         System.out.println("E facciamola insieme dai...");
