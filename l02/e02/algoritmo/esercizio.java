@@ -28,8 +28,20 @@ public class esercizio {
                     System.out.println("Allora svaghiamoci un pò cos'altro ti va di fare?");
                     int c=0;
                    while (c < 6) {
-                        c = c + 1;
                         int e = sc.nextInt();
+                        if(e == 1){
+                            System.out.println("Ci sto");
+                            System.out.println("siete diventati amici ;)");
+                        }
+                        else{
+                            if(e == 0){
+                                c = c + 1;
+                            }
+                            if(c == 6){
+                                System.out.println("Accetta la proposta fatta.");
+                                System.out.println("siete diventati amici ;)");
+                            }
+                        }
 
                    }
                 }
@@ -41,4 +53,5 @@ public class esercizio {
         }
     
     }
+    
 }
