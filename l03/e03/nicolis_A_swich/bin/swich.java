@@ -13,9 +13,9 @@ class swich {
                 String sesso = sc.nextLine();
 
                 if (sesso.equals("maschile")){
-                        int genere = 0;
+                        //int genere = 0;
                 }else{
-                        int genere = 1;
+                        //int genere = 1;
                 }
 
                 switch (n) {

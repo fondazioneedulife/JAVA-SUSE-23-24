@@ -12,9 +12,11 @@ public class e10{
         }
         System.out.println(accumulo);
         System.out.println("Ora stampiamo la parola 5 volte ma su righe diverse");
+
+        i = 0;
         while (i < 5) {
         System.out.println(frase);
-        i=i+0;
+        i=i+1;
         }
 
     }
