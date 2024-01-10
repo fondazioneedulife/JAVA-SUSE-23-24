@@ -11,5 +11,18 @@ prendere la scopa
 public class e07 {
     public static void main(String[] args){
         System.out.println("ciao");
+        boolean piove = false;
+        boolean fa_freddo = false;
+        if (piove == true && fa_freddo == true ){
+            System.out.println("stiamo a letto");
+
+        }
+            else if ((piove || fa_freddo) && !(piove && fa_freddo)){
+                System.out.println("andiamo a piedo con l'ombrello");
+            
+            }
+            else if (!(piove && fa_freddo)){
+                System.out.println("prendiamo la scopa");
+            }
     }
 }
