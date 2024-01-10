@@ -1,4 +1,4 @@
-//package l03.e04.pietroFornale;
+package l03.e04.pietrofornale;
 
 
 public class loopsAge {
@@ -14,5 +14,4 @@ public class loopsAge {
       j += 2;
     }
   }
-
 }

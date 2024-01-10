@@ -58,7 +58,7 @@ public class davide_z {
                 System.out.println("Abbott");
                 break;
             case 'B':
-                System.out.println("Baston");
+                System.out.println("Baston");   
                 break;
             case 'C':
                 System.out.println("Crouch");
