@@ -1,5 +1,5 @@
-
 package l03.e02;
+
 import java.util.Scanner;
 
 public class DiegoZinelliScanName {
