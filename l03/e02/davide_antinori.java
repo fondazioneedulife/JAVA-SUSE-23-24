@@ -14,7 +14,7 @@ public class davide_antinori {
         } else {
             System.out.println("Hai 17 o più anni");
         }
-        
+        // diciamo che ho perso di vista la consegna ma ok
     }
 
 }
