@@ -1,7 +1,5 @@
 package l03.e10;
-
-public class francesco_d {
-    //Stampiamo la parola 10 volte
+public class severino{
     public static void main(String[] args){
 
         String frase = "Ciao";
@@ -18,6 +16,6 @@ public class francesco_d {
         System.out.println(frase);
         i=i+1;
         }
+
     }
 }
-
