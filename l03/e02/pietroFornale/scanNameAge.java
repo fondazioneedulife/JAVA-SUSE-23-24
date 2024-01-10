@@ -1,5 +1,3 @@
-package l03.e02.pietroFornale;
-
 import java.util.Scanner;
 
 public class scanNameAge {
@@ -13,6 +11,7 @@ public class scanNameAge {
     System.out.println("Welcome " + name + ", what can I do for you? When were you born?");
 
     int bYear = sc.nextInt();
+    sc.close();
 
     int age = 2024 - bYear;
 
