@@ -8,10 +8,12 @@ public class Francesco_b {
             System.out.println(i);
             }
         }
+
+
         int i = 40;
         while(i < 50){
-            if((i%3)==0){
-            System.out.println(i);
+            if((i%2)!=0){   
+                System.out.println(i);
             }
             i++;
         }
