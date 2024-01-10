@@ -1,9 +1,7 @@
-package e02;
 import java.util.Scanner;
 
 public class torredellamorte{
     public static void main(String[] args){
-        Scanner sc = new Scanner(System.in);
         function1();
     }
     static void function1(){
@@ -32,17 +30,17 @@ public class torredellamorte{
         Scanner sc = new Scanner(System.in);
         System.out.println("E di bere qualcosa di caldo? 1 = si 2 = no");
         int a = sc.nextInt();
-        if (b == 1){
+        if (a == 1){
             System.out.println("Scegli: Tè(0), caffè(1), cioccolata(2)");
             int b = sc.nextInt();
             if (b == 0){
-                System.out.println("Fatevi 'sto tè")
+                System.out.println("Fatevi 'sto tè");
                 finale();
             } else if (b == 1){
-                System.out.println("Fatevi 'sto caffè")
+                System.out.println("Fatevi 'sto caffè");
                 finale();
             } else {
-                System.out.println("Fatevi 'sta cioccolata")
+                System.out.println("Fatevi 'sta cioccolata");
                 finale();
             }
         } else {
@@ -59,9 +57,9 @@ public class torredellamorte{
             System.out.println("E' una cosa che va di fare anche a me? 1 = si 2 = no");
             a = sc.nextInt();
             n = n+1; 
-        } while (a == 2 && n<=6);
+        } while (a == 2 && n<6);
 
-        if (n>=6){
+        if (n>=5){
         System.out.println("Scegli fra tutte le opzioni quella che ti appare meno disumana");
         System.out.println("Fattela piacere");
         } else {
