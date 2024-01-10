@@ -2,7 +2,7 @@ package l03.e04;
 
 public class e04_francesca {
     public static void main(String[] args) {
-        for (int i = 2; i<=20; i++){
+        for (int i = 2; i<=20; i+=2){
             System.out.print(i+" ");
         }
         System.out.println();
