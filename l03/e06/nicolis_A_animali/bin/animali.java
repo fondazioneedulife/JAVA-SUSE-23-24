@@ -16,5 +16,7 @@ class animali {
                 int nSchioppo_coda = sc.nextInt();
                 int som = sommaAnimali(nGalline, nSnano, nIppogriffo, nSchioppo_coda);
                 System.out.println("la somma è " + som);
+
+                sc.close();
         }
 }
