@@ -1,5 +1,5 @@
 package l03.e10;
-public class Francesco_b{
+public class severino{
     public static void main(String[] args){
 
         String frase = "Ciao";
@@ -12,7 +12,6 @@ public class Francesco_b{
         }
         System.out.println(accumulo);
         System.out.println("Ora stampiamo la parola 5 volte ma su righe diverse");
-        i = 0;
         while (i < 5) {
         System.out.println(frase);
         i=i+1;

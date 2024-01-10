@@ -1,5 +1,6 @@
 package l03.e10;
-public class Francesco_b{
+
+public class thomas {
     public static void main(String[] args){
 
         String frase = "Ciao";
@@ -19,4 +20,5 @@ public class Francesco_b{
         }
 
     }
+
 }
