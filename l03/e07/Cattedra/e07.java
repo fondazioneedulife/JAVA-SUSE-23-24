@@ -8,8 +8,20 @@ cose andare a piedi con l’ombrello.
 Se non piove e se fanno più di dieci gradi suggerire di
 prendere la scopa
  */
+
 public class e07 {
     public static void main(String[] args){
-        System.out.println("ciao");
+        boolean piove = true;
+        int tempo = 9;
+
+        if(piove && tempo < 10)
+        System.out.println("Rimaniamo a letto");
+
+        else if((piove || tempo < 10) && !(piove && tempo < 10)){
+            System.out.println("Ombrello");
+        }
+        else{
+            System.out.println("Scopa");
+        }
     }
 }
