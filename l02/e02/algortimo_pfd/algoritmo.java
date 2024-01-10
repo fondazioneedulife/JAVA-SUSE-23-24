@@ -36,17 +36,17 @@ class algoritmo {
 
                     switch (choice) {
                         case 0:
-                            System.out.println("Fatevi sto te'");
+                            System.out.println("Fatevi `sto te'");
 
                             break;
 
                         case 1:
-                            System.out.println("Fatevi sto caffe");
+                            System.out.println("Fatevi `sto coffee");
 
                             break;
 
                         case 2:
-                            System.out.println("Fatevi sta cioccolata");
+                            System.out.println("Fatevi `sta cioccolata");
 
                             break;
 
@@ -80,4 +80,3 @@ class algoritmo {
 
         }
     }
-}

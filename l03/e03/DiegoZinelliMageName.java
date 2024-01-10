@@ -1,21 +1,24 @@
-package l03.e03.Docente;
-import java.util.Scanner;
-public class e03 {
-    public static void main(String[] args){
-        Scanner sc = new Scanner(System.in);
-        System.out.println("Nome");
-        String nome = sc.nextLine();
-        System.out.println("Cognome");
-        String cognome = sc.nextLine();
-        System.out.println("maschio (0) o femmina (1)?");
-        int sesso = sc.nextInt();
-        sc.close();
-        nome = nome.toUpperCase();
-        nome = nome.trim();
-        char inizialeNome = nome.charAt(0); 
-        if(sesso==0){
+package l03.e03;
 
-            switch(inizialeNome){
+import java.util.Scanner;
+
+public class DiegoZinelliMageName {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+
+        System.out.println("Come ti chiami?");
+        String name = sc.nextLine();
+
+        System.out.println("E il tuo cognome?");
+        String surname = sc.nextLine();
+
+        System.out.println("Sei maschio (0) o femmina (1)?");
+        int gender = sc.nextInt();
+
+        char initname = name.toUpperCase().trim().charAt(0);
+        if (gender == 0) {
+
+            switch (initname) {
                 case 'A':
                     System.out.println("Aberforth");
                     break;
@@ -35,7 +38,7 @@ public class e03 {
         }
         else {
 
-            switch(inizialeNome){
+            switch(initname){
                 case 'A':
                     System.out.println("Astoria");
                     break;
@@ -53,8 +56,8 @@ public class e03 {
                     break;
             }
         }
-        char inizialeCognome = cognome.toUpperCase().trim().charAt(0); 
-        switch(inizialeCognome){
+        char initsurname = surname.toUpperCase().trim().charAt(0); 
+        switch(initsurname){
             case 'A':
                 System.out.println("Abbott");
                 break;
@@ -69,7 +72,9 @@ public class e03 {
                 break;
             case 'E':
                 System.out.println("Evans");
-                break;
+            break;
+            }
+        sc.close();
         }
     }
-}
+

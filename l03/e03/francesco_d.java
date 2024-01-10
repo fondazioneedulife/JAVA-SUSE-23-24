@@ -1,6 +1,8 @@
-package l03.e03.Docente;
+package l03.e03;
+
 import java.util.Scanner;
-public class e03 {
+
+public class francesco_d {
     public static void main(String[] args){
         Scanner sc = new Scanner(System.in);
         System.out.println("Nome");
@@ -10,9 +12,8 @@ public class e03 {
         System.out.println("maschio (0) o femmina (1)?");
         int sesso = sc.nextInt();
         sc.close();
-        nome = nome.toUpperCase();
-        nome = nome.trim();
-        char inizialeNome = nome.charAt(0); 
+        
+        char inizialeNome = nome.toUpperCase().trim().charAt(0); 
         if(sesso==0){
 
             switch(inizialeNome){
