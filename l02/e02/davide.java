@@ -7,7 +7,7 @@ public class davide {
         System.out.println("Componi numero di telefono");
         Scanner sc = new Scanner(System.in);
         sc.nextInt();
-        System.out.println("E' in casa?\nsi\nno");
+        System.out.println("E' in casa?\nsi | no");
         funzioneif();
     }
 
@@ -28,7 +28,7 @@ public class davide {
         String scelta = "";
         System.out.println("Lascia un messaggio...");
         sc.nextLine();
-        System.out.println("Aspetta una richiamata\nE' tornata a casa?");
+        System.out.println("Aspetta una richiamata\nE' tornata a casa?\si | no");
         funzioneif();
         return scelta;
     }
@@ -36,7 +36,7 @@ public class davide {
     static String cenaInsieme() {
         Scanner sc = new Scanner(System.in);
         String scelta = "";
-        System.out.println("Vorresti cenare assieme?");
+        System.out.println("Vorresti cenare assieme?\nsi | no");
         scelta = sc.nextLine();
         if (scelta.equals("si")) {
             System.out.println("Ceniamo!\nInizio dell'amicizia!");
@@ -49,7 +49,7 @@ public class davide {
     static String bevandaCalda() {
         Scanner sc = new Scanner(System.in);
         String scelta = "";
-        System.out.println("Vorresti bere qualcosa di caldo?");
+        System.out.println("Vorresti bere qualcosa di caldo?\nsi | no");
         scelta = sc.nextLine();
         if (scelta.equals("si")) {
             System.out.println("Scegli tra:\ntè\ncaffè\ncioccolata");
