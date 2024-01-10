@@ -1,4 +1,4 @@
-package nicolis_A_ordinaNumeri.bin;
+package l03.e04.nicolis_A_ordinaNumeri.bin;
 
 
 class ordinaNumeri {
