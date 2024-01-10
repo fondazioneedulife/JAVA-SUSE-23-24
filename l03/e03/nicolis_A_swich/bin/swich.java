@@ -1,6 +1,5 @@
-package nicolis_A_swich.bin;
+package l03.e03.nicolis_A_swich.bin;
 
-import java.sql.Array;
 import java.util.Scanner;
 
 class swich {
@@ -14,24 +13,20 @@ class swich {
                 String sesso = sc.nextLine();
 
                 if (sesso.equals("maschile")){
-                        switch (n) {
-                                case 'A':
-                                        
-                                        break;
-                
-                                default:
-                                        break;
-                        }
+                        int genere = 0;
                 }else{
-                        switch (n) {
-                                case 'A':
-                                
-                                        break;
-                
-                                default:
-                                        break;
-                        }
+                        int genere = 1;
                 }
+
+                switch (n) {
+                        case 'A':
+                        System.out.println();  
+                                break;
+                
+                        default:
+                                break;
+                }
+                
 
                 switch (c) {
                         case 'A':
@@ -41,5 +36,6 @@ class swich {
                         default:
                                 break;
                 }
+                sc.close();
         }
 }
