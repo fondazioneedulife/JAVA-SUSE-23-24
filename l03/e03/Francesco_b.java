@@ -1,20 +1,76 @@
-package l03.e02;
+package l03.e03;
 import java.util.Scanner;
-
-
 public class Francesco_b {
     public static void main(String[] args){
         Scanner sc = new Scanner(System.in);
-
-        System.out.println("Come ti chiami?");
+        System.out.println("Nome");
         String nome = sc.nextLine();
 
-        System.out.println("ciao " + nome + ", quanti anni hai?");
-        int age = sc.nextInt();
+        System.out.println("Cognome");
+        String cognome = sc.nextLine();
         
-        if(age < 17){
-            System.out.println("Ti ricordo che verrai severamente \npunito dal singnor silente se utilizzerai \nse utilizzerai la magia fuori da Hogwarts");
-        }
+        System.out.println("maschio (0) o femmina (1)?");
+        int sesso = sc.nextInt();
+        sc.close();
+        
+        char inizialeNome = nome.toUpperCase().trim().charAt(0); 
+        if(sesso==0){
 
+            switch(inizialeNome){
+                case 'A':
+                    System.out.println("Aberforth");
+                    break;
+                case 'B':
+                    System.out.println("Bill");
+                    break;
+                case 'C':
+                    System.out.println("Charlie");
+                    break;
+                case 'D':
+                    System.out.println("Draco");
+                    break;
+                case 'E':
+                    System.out.println("Elphias");
+                    break;
+            }
+        }
+        else {
+
+            switch(inizialeNome){
+                case 'A':
+                    System.out.println("Astoria");
+                    break;
+                case 'B':
+                    System.out.println("Bellatrix");
+                    break;
+                case 'C':
+                    System.out.println("Cho");
+                    break;
+                case 'D':
+                    System.out.println("Dolores");
+                    break;
+                case 'E':
+                    System.out.println("Eileen");
+                    break;
+            }
+        }
+        char inizialeCognome = cognome.toUpperCase().trim().charAt(0); 
+        switch(inizialeCognome){
+            case 'A':
+                System.out.println("Abbott");
+                break;
+            case 'B':
+                System.out.println("Baston");
+                break;
+            case 'C':
+                System.out.println("Crouch");
+                break;
+            case 'D':
+                System.out.println("Dursley");
+                break;
+            case 'E':
+                System.out.println("Evans");
+                break;
+        }
     }
 }
