@@ -80,4 +80,8 @@ class algoritmo {
 
         }
     }
+<<<<<<< HEAD
+ciasociaocfdf
+=======
+>>>>>>> b7420fbb7281af8b7f9785309939b1f46b3cb536
 }
