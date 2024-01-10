@@ -8,6 +8,7 @@ cose andare a piedi con l’ombrello.
 Se non piove e se fanno più di dieci gradi suggerire di
 prendere la scopa
  */
+
 public class e07 {
     public static void main(String[] args){
         System.out.println("ciao");
