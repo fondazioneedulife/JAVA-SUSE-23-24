@@ -10,8 +10,9 @@ public class e03 {
         System.out.println("maschio (0) o femmina (1)?");
         int sesso = sc.nextInt();
         sc.close();
-        
-        char inizialeNome = nome.toUpperCase().trim().charAt(0); 
+        nome = nome.toUpperCase();
+        nome = nome.trim();
+        char inizialeNome = nome.charAt(0); 
         if(sesso==0){
 
             switch(inizialeNome){
