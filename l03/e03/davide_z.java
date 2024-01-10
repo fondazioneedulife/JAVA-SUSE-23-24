@@ -1,14 +1,12 @@
 package l03.e03;
 import java.util.Scanner;
-public class Francesco_b {
+public class davide_z {
     public static void main(String[] args){
         Scanner sc = new Scanner(System.in);
         System.out.println("Nome");
         String nome = sc.nextLine();
-
         System.out.println("Cognome");
         String cognome = sc.nextLine();
-        
         System.out.println("maschio (0) o femmina (1)?");
         int sesso = sc.nextInt();
         sc.close();

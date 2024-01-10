@@ -1,22 +1,24 @@
 package l03.e03;
+
 import java.util.Scanner;
-public class Francesco_b {
-    public static void main(String[] args){
+
+public class DiegoZinelliMageName {
+    public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
-        System.out.println("Nome");
-        String nome = sc.nextLine();
 
-        System.out.println("Cognome");
-        String cognome = sc.nextLine();
-        
-        System.out.println("maschio (0) o femmina (1)?");
-        int sesso = sc.nextInt();
-        sc.close();
-        
-        char inizialeNome = nome.toUpperCase().trim().charAt(0); 
-        if(sesso==0){
+        System.out.println("Come ti chiami?");
+        String name = sc.nextLine();
 
-            switch(inizialeNome){
+        System.out.println("E il tuo cognome?");
+        String surname = sc.nextLine();
+
+        System.out.println("Sei maschio (0) o femmina (1)?");
+        int gender = sc.nextInt();
+
+        char initname = name.toUpperCase().trim().charAt(0);
+        if (gender == 0) {
+
+            switch (initname) {
                 case 'A':
                     System.out.println("Aberforth");
                     break;
@@ -36,7 +38,7 @@ public class Francesco_b {
         }
         else {
 
-            switch(inizialeNome){
+            switch(initname){
                 case 'A':
                     System.out.println("Astoria");
                     break;
@@ -54,8 +56,8 @@ public class Francesco_b {
                     break;
             }
         }
-        char inizialeCognome = cognome.toUpperCase().trim().charAt(0); 
-        switch(inizialeCognome){
+        char initsurname = surname.toUpperCase().trim().charAt(0); 
+        switch(initsurname){
             case 'A':
                 System.out.println("Abbott");
                 break;
@@ -70,7 +72,9 @@ public class Francesco_b {
                 break;
             case 'E':
                 System.out.println("Evans");
-                break;
+            break;
+            }
+        sc.close();
         }
     }
-}
+
