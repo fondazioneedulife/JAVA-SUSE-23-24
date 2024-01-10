@@ -14,7 +14,7 @@ public class Francesco_b {
         if(piove && gradi){
             System.out.println("Stiamo a casa");
         } else if ((piove || gradi) && !(piove || gradi)){
-
+            System.out.println("vado");
         }
     }
 }
