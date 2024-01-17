@@ -1,3 +1,4 @@
+package l03.e02.pietrofornale;
 import java.util.Scanner;
 
 public class scanNameAge {
