@@ -25,5 +25,6 @@ class voti {
                 }else{
                         System.out.println("non è un numero accettabile");
                 }
+                sc.close();
         }
 }
