@@ -9,15 +9,16 @@ public class ex3 {
     Scanner sc = new Scanner(System.in);
     ArrayList<Integer> arr = new ArrayList<Integer>();
     int a;
+    int finale = 0;
     
     System.out.println("Num:");
     int num = sc.nextInt();
     
     for (int i = 0; i < 6; i++) {
       series(Math.pow(2, i));
-      System.out.println("Compare:");
+      System.out.println("Compare:" + num);
       if (sc.nextInt() == 1) {
-        num += Math.pow(2, i);
+        finale += Math.pow(2, i);
       }
     }
 
