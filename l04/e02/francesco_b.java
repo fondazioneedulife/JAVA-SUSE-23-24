@@ -2,7 +2,7 @@ package l04.e02;
 
 import java.util.ArrayList;
 
-public class davide_z_array {
+public class francesco_b {
     public static void main(String[] args) {
         ArrayList <String> numeri = new ArrayList<String>();
         numeri.add("DAVIDE1");

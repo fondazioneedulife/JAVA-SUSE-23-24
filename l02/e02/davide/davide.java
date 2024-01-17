@@ -1,14 +1,20 @@
+
+/* 
+package l02.e02.davide;
 import java.util.ArrayList;
 import java.util.List;
 import java.util.Scanner;
 
 public class davide {
     public static void main(String[] args) {
+         
         System.out.println("Componi numero di telefono");
         Scanner sc = new Scanner(System.in);
         sc.nextInt();
         System.out.println("E' in casa?\nsi | no");
         funzioneif();
+        Algoritmo algoritmo = new Algoritmo();
+        algoritmo.inizia();
     }
 
     static String funzioneif() {
@@ -116,5 +122,12 @@ public class davide {
         System.out.println("Inizio amicizia!");
 
         return scelta;
+    }
+}
+*/
+
+public class davide{
+    public static void main(String[] args){
+        System.out.println("Hello World");
     }
 }
