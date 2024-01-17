@@ -28,5 +28,9 @@ public class francesco_d {
                 numeri.add("Alessandro2");
                 numeri.add("Francesco2");
                 System.out.println(numeri);
+
+            int Lunghezza = numeri.size();
+            System.out.println("La classe è composta da " + Lunghezza);
+            System.out.println("Alunni " + numeri);
     }
 }
