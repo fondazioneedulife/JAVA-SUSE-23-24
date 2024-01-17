@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class ex2 {
+public class CristoforiGiacomo {
     public static void main (String[] args) {
         Scanner sc = new Scanner(System.in);
         System.out.println("Un Troll nei sotterranei!(Io ve l'ho detto...uh!)");
