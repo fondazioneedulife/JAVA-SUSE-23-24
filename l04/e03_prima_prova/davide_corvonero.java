@@ -26,6 +26,7 @@ public class davide_corvonero {
                 System.out.println("Troll");
                 break;
             default:
+                System.out.println("Input non corretto AHAHHAHAHA MONGOLOIDE");
                 break;
         }
     }
