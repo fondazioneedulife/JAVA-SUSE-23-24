@@ -34,8 +34,8 @@ public class e08_francesca {
             System.out.println("Quanti anni hai?");
             anni = sc.nextInt();
             count ++;
-        } while (anni>15 || anni <2);
-        if (nome.length()<=5 || anni<=15 && anni >=2){
+        } while (anni<=15 && anni >=2);
+        if (nome.length()<=5 || anni>15 || anni <2){
             System.out.println("Puoi entrare");
         } else {
             System.out.println("Non puoi entrare");
