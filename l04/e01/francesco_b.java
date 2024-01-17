@@ -69,5 +69,3 @@ public class francesco_b {
        }
     }
 }
-
-
