@@ -1,4 +1,4 @@
-package esercizi.e06_funzioni;
+package esercizie06_funzioni;
 
 /*
  1 Creare una funzione “sottrazione” che stampi il risultato della sottrazione tra due numeri dati in input. Lanciare la funzione creata più volte con input diversi.
