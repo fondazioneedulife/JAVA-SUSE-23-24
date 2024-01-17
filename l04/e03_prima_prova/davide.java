@@ -1,7 +1,10 @@
 package l04.e03_prima_prova;
+
 import java.util.Scanner;
-public class davide.z {
+public class davide {
     public static void main(String[] args) {
+
+
         Scanner sc = new Scanner(System.in);
         System.out.println("Inserisci un numero: ");
         int voto = sc.nextInt();
