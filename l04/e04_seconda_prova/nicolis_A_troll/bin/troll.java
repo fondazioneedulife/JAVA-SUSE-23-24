@@ -3,7 +3,6 @@ package l04.e04_seconda_prova.nicolis_A_troll.bin;
 import java.util.Scanner;
 
 class troll {
-
         public static void main(String[] args) {
 
                 System.out.println("Incontri un troll");
@@ -28,7 +27,5 @@ class troll {
                         }
                 }
                 sc.close();
-
-        
         }
 }
