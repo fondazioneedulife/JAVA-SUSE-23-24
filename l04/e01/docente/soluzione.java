@@ -26,6 +26,6 @@ public class soluzione {
     }
     private static boolean possoEntrare(boolean uniforme, boolean studente, boolean insegnante, boolean preside, boolean fantasma, boolean cane){
         // (((uniforme AND studente) AND (studente OR insegnante OR preside)) OR fantasma ) AND NOT(cane)
-        return (((uniforme && studente) && (studente || insegnante || preside)) || fantasma ) && !(cane);
+        return ((uniforme && studente) || insegnante || preside || fantasma ) && !(cane);
     }
 }
