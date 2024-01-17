@@ -1,0 +1,819 @@
+{
+  // Use IntelliSense to learn about possible attributes.
+  // Hover to view descriptions of existing attributes.
+  // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "type": "java",
+      "name": "Current File",
+      "request": "launch",
+      "mainClass": "${file}"
+    },
+    {
+      "type": "java",
+      "name": "DiegoZinelliScanName",
+      "request": "launch",
+      "mainClass": "DiegoZinelliScanName",
+      "projectName": "JAVA-SUSE-23-24_40f453d1"
+    },
+    {
+      "type": "java",
+      "name": "e02",
+      "request": "launch",
+      "mainClass": "Docente.e02",
+      "projectName": "JAVA-SUSE-23-24_40f453d1"
+    },
+    {
+      "type": "java",
+      "name": "esercizio02",
+      "request": "launch",
+      "mainClass": "Docente.esercizio02",
+      "projectName": "JAVA-SUSE-23-24_40f453d1"
+    },
+    {
+      "type": "java",
+      "name": "thomas",
+      "request": "launch",
+      "mainClass": "Docente.thomas",
+      "projectName": "JAVA-SUSE-23-24_40f453d1"
+    },
+    {
+      "type": "java",
+      "name": "Francesco_b",
+      "request": "launch",
+      "mainClass": "Francesco_b",
+      "projectName": "JAVA-SUSE-23-24_40f453d1"
+    },
+    {
+      "type": "java",
+      "name": "Hello_World",
+      "request": "launch",
+      "mainClass": "Hello_World",
+      "projectName": "JAVA-SUSE-23-24_40f453d1"
+    },
+    {
+      "type": "java",
+      "name": "Main",
+      "request": "launch",
+      "mainClass": "Miceli.Main",
+      "projectName": "JAVA-SUSE-23-24_40f453d1"
+    },
+    {
+      "type": "java",
+      "name": "PericoloTroll",
+      "request": "launch",
+      "mainClass": "PericoloTroll",
+      "projectName": "JAVA-SUSE-23-24_40f453d1"
+    },
+    {
+      "type": "java",
+      "name": "Simone_Severino",
+      "request": "launch",
+      "mainClass": "Severino.Simone_Severino",
+      "projectName": "JAVA-SUSE-23-24_40f453d1"
+    },
+    {
+      "type": "java",
+      "name": "VotiGUFO",
+      "request": "launch",
+      "mainClass": "VotiGUFO",
+      "projectName": "JAVA-SUSE-23-24_40f453d1"
+    },
+    {
+      "type": "java",
+      "name": "davide_antinori",
+      "request": "launch",
+      "mainClass": "davide_antinori",
+      "projectName": "JAVA-SUSE-23-24_40f453d1"
+    },
+    {
+      "type": "java",
+      "name": "davide_z",
+      "request": "launch",
+      "mainClass": "davide_z",
+      "projectName": "JAVA-SUSE-23-24_40f453d1"
+    },
+    {
+      "type": "java",
+      "name": "e02(1)",
+      "request": "launch",
+      "mainClass": "e02",
+      "projectName": "JAVA-SUSE-23-24_40f453d1"
+    },
+    {
+      "type": "java",
+      "name": "e02_francesca",
+      "request": "launch",
+      "mainClass": "e02_francesca",
+      "projectName": "JAVA-SUSE-23-24_40f453d1"
+    },
+    {
+      "type": "java",
+      "name": "sol",
+      "request": "launch",
+      "mainClass": "esercizi.e06_funzioni.sol",
+      "projectName": "JAVA-SUSE-23-24_40f453d1"
+    },
+    {
+      "type": "java",
+      "name": "francesco_d",
+      "request": "launch",
+      "mainClass": "francesco_d",
+      "projectName": "JAVA-SUSE-23-24_40f453d1"
+    },
+    {
+      "type": "java",
+      "name": "alg_amici",
+      "request": "launch",
+      "mainClass": "l02.e01.esTobDesGia.partDes.alg_amici",
+      "projectName": "JAVA-SUSE-23-24_40f453d1"
+    },
+    {
+      "type": "java",
+      "name": "esercizio",
+      "request": "launch",
+      "mainClass": "l02.e02.algoritmo.esercizio",
+      "projectName": "JAVA-SUSE-23-24_40f453d1"
+    },
+    {
+      "type": "java",
+      "name": "algoritmo",
+      "request": "launch",
+      "mainClass": "l02.e02.algortimo_pfd.algoritmo",
+      "projectName": "JAVA-SUSE-23-24_40f453d1"
+    },
+    {
+      "type": "java",
+      "name": "amicizia_while",
+      "request": "launch",
+      "mainClass": "l02.e02.altro.amicizia_while",
+      "projectName": "JAVA-SUSE-23-24_40f453d1"
+    },
+    {
+      "type": "java",
+      "name": "torredellamorte",
+      "request": "launch",
+      "mainClass": "l02.e02.altro.torredellamorte",
+      "projectName": "JAVA-SUSE-23-24_40f453d1"
+    },
+    {
+      "type": "java",
+      "name": "bila1",
+      "request": "launch",
+      "mainClass": "l02.e02.bilaterali.bila1",
+      "projectName": "JAVA-SUSE-23-24_40f453d1"
+    },
+    {
+      "type": "java",
+      "name": "bilaterali",
+      "request": "launch",
+      "mainClass": "l02.e02.bilaterali.bilaterali",
+      "projectName": "JAVA-SUSE-23-24_40f453d1"
+    },
+    {
+      "type": "java",
+      "name": "funzRossa",
+      "request": "launch",
+      "mainClass": "l02.e02.bilaterali.funzRossa",
+      "projectName": "JAVA-SUSE-23-24_40f453d1"
+    },
+    {
+      "type": "java",
+      "name": "davide",
+      "request": "launch",
+      "mainClass": "l02.e02.davide.davide",
+      "projectName": "JAVA-SUSE-23-24_40f453d1"
+    },
+    {
+      "type": "java",
+      "name": "completo",
+      "request": "launch",
+      "mainClass": "l02.e02.esTobDesGia.completo",
+      "projectName": "JAVA-SUSE-23-24_40f453d1"
+    },
+    {
+      "type": "java",
+      "name": "alg_amici(1)",
+      "request": "launch",
+      "mainClass": "l02.e02.esTobDesGia.partDes.alg_amici",
+      "projectName": "JAVA-SUSE-23-24_40f453d1"
+    },
+    {
+      "type": "java",
+      "name": "algoritmo_amicizia",
+      "request": "launch",
+      "mainClass": "l02.e02.esTobDesGia.partGia.algoritmo_amicizia",
+      "projectName": "JAVA-SUSE-23-24_40f453d1"
+    },
+    {
+      "type": "java",
+      "name": "EsercizioTabellaAmicizia",
+      "request": "launch",
+      "mainClass": "l02.e02.gruppocinque.EsercizioTabellaAmicizia",
+      "projectName": "JAVA-SUSE-23-24_40f453d1"
+    },
+    {
+      "type": "java",
+      "name": "gruppocinque",
+      "request": "launch",
+      "mainClass": "l02.e02.gruppocinque.gruppocinque",
+      "projectName": "JAVA-SUSE-23-24_40f453d1"
+    },
+    {
+      "type": "java",
+      "name": "amicizia",
+      "request": "launch",
+      "mainClass": "l02.e02.piripi.amicizia",
+      "projectName": "JAVA-SUSE-23-24_40f453d1"
+    },
+    {
+      "type": "java",
+      "name": "friendship",
+      "request": "launch",
+      "mainClass": "l02.e02.vaporeon.friendship",
+      "projectName": "JAVA-SUSE-23-24_40f453d1"
+    },
+    {
+      "type": "java",
+      "name": "DiegoZinelliMageName",
+      "request": "launch",
+      "mainClass": "l03.e03.DiegoZinelliMageName",
+      "projectName": "JAVA-SUSE-23-24_40f453d1"
+    },
+    {
+      "type": "java",
+      "name": "e03",
+      "request": "launch",
+      "mainClass": "l03.e03.Docente.e03",
+      "projectName": "JAVA-SUSE-23-24_40f453d1"
+    },
+    {
+      "type": "java",
+      "name": "Francesco_b(1)",
+      "request": "launch",
+      "mainClass": "l03.e03.Francesco_b",
+      "projectName": "JAVA-SUSE-23-24_40f453d1"
+    },
+    {
+      "type": "java",
+      "name": "davide_antinori(1)",
+      "request": "launch",
+      "mainClass": "l03.e03.davide_antinori",
+      "projectName": "JAVA-SUSE-23-24_40f453d1"
+    },
+    {
+      "type": "java",
+      "name": "davide_z(1)",
+      "request": "launch",
+      "mainClass": "l03.e03.davide_z",
+      "projectName": "JAVA-SUSE-23-24_40f453d1"
+    },
+    {
+      "type": "java",
+      "name": "e03_francesca",
+      "request": "launch",
+      "mainClass": "l03.e03.e03_francesca",
+      "projectName": "JAVA-SUSE-23-24_40f453d1"
+    },
+    {
+      "type": "java",
+      "name": "francesco_d(1)",
+      "request": "launch",
+      "mainClass": "l03.e03.francesco_d",
+      "projectName": "JAVA-SUSE-23-24_40f453d1"
+    },
+    {
+      "type": "java",
+      "name": "wizardName",
+      "request": "launch",
+      "mainClass": "l03.e03.pietrofornale.wizardName",
+      "projectName": "JAVA-SUSE-23-24_40f453d1"
+    },
+    {
+      "type": "java",
+      "name": "thomas(1)",
+      "request": "launch",
+      "mainClass": "l03.e03.thomas",
+      "projectName": "JAVA-SUSE-23-24_40f453d1"
+    },
+    {
+      "type": "java",
+      "name": "DiegoZinelliNumberOrder",
+      "request": "launch",
+      "mainClass": "l03.e04.DiegoZinelliNumberOrder",
+      "projectName": "JAVA-SUSE-23-24_40f453d1"
+    },
+    {
+      "type": "java",
+      "name": "e04",
+      "request": "launch",
+      "mainClass": "l03.e04.Docente.e04",
+      "projectName": "JAVA-SUSE-23-24_40f453d1"
+    },
+    {
+      "type": "java",
+      "name": "Francesco_b(2)",
+      "request": "launch",
+      "mainClass": "l03.e04.Francesco_b",
+      "projectName": "JAVA-SUSE-23-24_40f453d1"
+    },
+    {
+      "type": "java",
+      "name": "davide_antinori(2)",
+      "request": "launch",
+      "mainClass": "l03.e04.davide_antinori",
+      "projectName": "JAVA-SUSE-23-24_40f453d1"
+    },
+    {
+      "type": "java",
+      "name": "davide_z(2)",
+      "request": "launch",
+      "mainClass": "l03.e04.davide_z",
+      "projectName": "JAVA-SUSE-23-24_40f453d1"
+    },
+    {
+      "type": "java",
+      "name": "e04_francesca",
+      "request": "launch",
+      "mainClass": "l03.e04.e04_francesca",
+      "projectName": "JAVA-SUSE-23-24_40f453d1"
+    },
+    {
+      "type": "java",
+      "name": "francesco_d(2)",
+      "request": "launch",
+      "mainClass": "l03.e04.francesco_d",
+      "projectName": "JAVA-SUSE-23-24_40f453d1"
+    },
+    {
+      "type": "java",
+      "name": "loopsAge",
+      "request": "launch",
+      "mainClass": "l03.e04.pietrofornale.loopsAge",
+      "projectName": "JAVA-SUSE-23-24_40f453d1"
+    },
+    {
+      "type": "java",
+      "name": "thomas(2)",
+      "request": "launch",
+      "mainClass": "l03.e04.thomas",
+      "projectName": "JAVA-SUSE-23-24_40f453d1"
+    },
+    {
+      "type": "java",
+      "name": "e05",
+      "request": "launch",
+      "mainClass": "l03.e05.Cattedra.e05",
+      "projectName": "JAVA-SUSE-23-24_40f453d1"
+    },
+    {
+      "type": "java",
+      "name": "DiegoZinelliSwimming",
+      "request": "launch",
+      "mainClass": "l03.e05.DiegoZinelliSwimming",
+      "projectName": "JAVA-SUSE-23-24_40f453d1"
+    },
+    {
+      "type": "java",
+      "name": "e05(1)",
+      "request": "launch",
+      "mainClass": "l03.e05.Docente.e05",
+      "projectName": "JAVA-SUSE-23-24_40f453d1"
+    },
+    {
+      "type": "java",
+      "name": "cinghiale",
+      "request": "launch",
+      "mainClass": "l03.e05.cinghiale",
+      "projectName": "JAVA-SUSE-23-24_40f453d1"
+    },
+    {
+      "type": "java",
+      "name": "davide_antinori(3)",
+      "request": "launch",
+      "mainClass": "l03.e05.davide_antinori",
+      "projectName": "JAVA-SUSE-23-24_40f453d1"
+    },
+    {
+      "type": "java",
+      "name": "davide_z(3)",
+      "request": "launch",
+      "mainClass": "l03.e05.davide_z",
+      "projectName": "JAVA-SUSE-23-24_40f453d1"
+    },
+    {
+      "type": "java",
+      "name": "francesco_d(3)",
+      "request": "launch",
+      "mainClass": "l03.e05.francesco_d",
+      "projectName": "JAVA-SUSE-23-24_40f453d1"
+    },
+    {
+      "type": "java",
+      "name": "severino",
+      "request": "launch",
+      "mainClass": "l03.e05.severino.severino",
+      "projectName": "JAVA-SUSE-23-24_40f453d1"
+    },
+    {
+      "type": "java",
+      "name": "thomas(3)",
+      "request": "launch",
+      "mainClass": "l03.e05.thomas",
+      "projectName": "JAVA-SUSE-23-24_40f453d1"
+    },
+    {
+      "type": "java",
+      "name": "e06",
+      "request": "launch",
+      "mainClass": "l03.e06.Docente.e06",
+      "projectName": "JAVA-SUSE-23-24_40f453d1"
+    },
+    {
+      "type": "java",
+      "name": "e07",
+      "request": "launch",
+      "mainClass": "l03.e07.Cattedra.e07",
+      "projectName": "JAVA-SUSE-23-24_40f453d1"
+    },
+    {
+      "type": "java",
+      "name": "e07(1)",
+      "request": "launch",
+      "mainClass": "l03.e07.Docente.e07",
+      "projectName": "JAVA-SUSE-23-24_40f453d1"
+    },
+    {
+      "type": "java",
+      "name": "Francesco_b(3)",
+      "request": "launch",
+      "mainClass": "l03.e07.Francesco_b",
+      "projectName": "JAVA-SUSE-23-24_40f453d1"
+    },
+    {
+      "type": "java",
+      "name": "e07_francesca",
+      "request": "launch",
+      "mainClass": "l03.e07.e07_francesca",
+      "projectName": "JAVA-SUSE-23-24_40f453d1"
+    },
+    {
+      "type": "java",
+      "name": "francesco_d(4)",
+      "request": "launch",
+      "mainClass": "l03.e07.francesco_d",
+      "projectName": "JAVA-SUSE-23-24_40f453d1"
+    },
+    {
+      "type": "java",
+      "name": "temperatura",
+      "request": "launch",
+      "mainClass": "l03.e07.nicolis_A_temperatura.bin.temperatura",
+      "projectName": "JAVA-SUSE-23-24_40f453d1"
+    },
+    {
+      "type": "java",
+      "name": "rain",
+      "request": "launch",
+      "mainClass": "l03.e07.pietrofornale.rain",
+      "projectName": "JAVA-SUSE-23-24_40f453d1"
+    },
+    {
+      "type": "java",
+      "name": "severino(1)",
+      "request": "launch",
+      "mainClass": "l03.e07.severino.severino",
+      "projectName": "JAVA-SUSE-23-24_40f453d1"
+    },
+    {
+      "type": "java",
+      "name": "thomas(4)",
+      "request": "launch",
+      "mainClass": "l03.e07.thomas",
+      "projectName": "JAVA-SUSE-23-24_40f453d1"
+    },
+    {
+      "type": "java",
+      "name": "e08",
+      "request": "launch",
+      "mainClass": "l03.e08.Cattedra.e08",
+      "projectName": "JAVA-SUSE-23-24_40f453d1"
+    },
+    {
+      "type": "java",
+      "name": "e08(1)",
+      "request": "launch",
+      "mainClass": "l03.e08.Docente.e08",
+      "projectName": "JAVA-SUSE-23-24_40f453d1"
+    },
+    {
+      "type": "java",
+      "name": "Francesco_b(4)",
+      "request": "launch",
+      "mainClass": "l03.e08.Francesco_b",
+      "projectName": "JAVA-SUSE-23-24_40f453d1"
+    },
+    {
+      "type": "java",
+      "name": "e08_francesca",
+      "request": "launch",
+      "mainClass": "l03.e08.e08_francesca",
+      "projectName": "JAVA-SUSE-23-24_40f453d1"
+    },
+    {
+      "type": "java",
+      "name": "entrareBar",
+      "request": "launch",
+      "mainClass": "l03.e08.nicolis_A_entrareBar.bin.entrareBar",
+      "projectName": "JAVA-SUSE-23-24_40f453d1"
+    },
+    {
+      "type": "java",
+      "name": "e09",
+      "request": "launch",
+      "mainClass": "l03.e09.Docente.e09",
+      "projectName": "JAVA-SUSE-23-24_40f453d1"
+    },
+    {
+      "type": "java",
+      "name": "DiegoCanEnter",
+      "request": "launch",
+      "mainClass": "l04.e01.DiegoCanEnter",
+      "projectName": "JAVA-SUSE-23-24_40f453d1"
+    },
+    {
+      "type": "java",
+      "name": "davide(1)",
+      "request": "launch",
+      "mainClass": "l04.e01.davide",
+      "projectName": "JAVA-SUSE-23-24_40f453d1"
+    },
+    {
+      "type": "java",
+      "name": "davidez",
+      "request": "launch",
+      "mainClass": "l04.e01.davidez",
+      "projectName": "JAVA-SUSE-23-24_40f453d1"
+    },
+    {
+      "type": "java",
+      "name": "soluzione",
+      "request": "launch",
+      "mainClass": "l04.e01.docente.soluzione",
+      "projectName": "JAVA-SUSE-23-24_40f453d1"
+    },
+    {
+      "type": "java",
+      "name": "e01_francesca",
+      "request": "launch",
+      "mainClass": "l04.e01.e01_francesca",
+      "projectName": "JAVA-SUSE-23-24_40f453d1"
+    },
+    {
+      "type": "java",
+      "name": "francesco_b",
+      "request": "launch",
+      "mainClass": "l04.e01.francesco_b",
+      "projectName": "JAVA-SUSE-23-24_40f453d1"
+    },
+    {
+      "type": "java",
+      "name": "francesco_d(5)",
+      "request": "launch",
+      "mainClass": "l04.e01.francesco_d",
+      "projectName": "JAVA-SUSE-23-24_40f453d1"
+    },
+    {
+      "type": "java",
+      "name": "Boolean",
+      "request": "launch",
+      "mainClass": "l04.e01.nicolis_A_Boolean.bin.Boolean",
+      "projectName": "JAVA-SUSE-23-24_40f453d1"
+    },
+    {
+      "type": "java",
+      "name": "hogsmade",
+      "request": "launch",
+      "mainClass": "l04.e01.pietrofornale.hogsmade",
+      "projectName": "JAVA-SUSE-23-24_40f453d1"
+    },
+    {
+      "type": "java",
+      "name": "severino(2)",
+      "request": "launch",
+      "mainClass": "l04.e01.severino",
+      "projectName": "JAVA-SUSE-23-24_40f453d1"
+    },
+    {
+      "type": "java",
+      "name": "thomas(5)",
+      "request": "launch",
+      "mainClass": "l04.e01.thomas",
+      "projectName": "JAVA-SUSE-23-24_40f453d1"
+    },
+    {
+      "type": "java",
+      "name": "DiegoArrayList",
+      "request": "launch",
+      "mainClass": "l04.e02.DiegoArrayList",
+      "projectName": "JAVA-SUSE-23-24_40f453d1"
+    },
+    {
+      "type": "java",
+      "name": "soluzione(1)",
+      "request": "launch",
+      "mainClass": "l04.e02.Docente.soluzione",
+      "projectName": "JAVA-SUSE-23-24_40f453d1"
+    },
+    {
+      "type": "java",
+      "name": "davide(2)",
+      "request": "launch",
+      "mainClass": "l04.e02.davide",
+      "projectName": "JAVA-SUSE-23-24_40f453d1"
+    },
+    {
+      "type": "java",
+      "name": "davide_z_array",
+      "request": "launch",
+      "mainClass": "l04.e02.davide_z_array",
+      "projectName": "JAVA-SUSE-23-24_40f453d1"
+    },
+    {
+      "type": "java",
+      "name": "francesco_b(1)",
+      "request": "launch",
+      "mainClass": "l04.e02.francesco_b",
+      "projectName": "JAVA-SUSE-23-24_40f453d1"
+    },
+    {
+      "type": "java",
+      "name": "francesco_d(6)",
+      "request": "launch",
+      "mainClass": "l04.e02.francesco_d",
+      "projectName": "JAVA-SUSE-23-24_40f453d1"
+    },
+    {
+      "type": "java",
+      "name": "arrayListClasse",
+      "request": "launch",
+      "mainClass": "l04.e02.nicolis_A_arrayListClasse.bin.arrayListClasse",
+      "projectName": "JAVA-SUSE-23-24_40f453d1"
+    },
+    {
+      "type": "java",
+      "name": "arrayList",
+      "request": "launch",
+      "mainClass": "l04.e02.pietrofornale.arrayList",
+      "projectName": "JAVA-SUSE-23-24_40f453d1"
+    },
+    {
+      "type": "java",
+      "name": "DiegoGUFO",
+      "request": "launch",
+      "mainClass": "l04.e03_prima_prova.DiegoGUFO",
+      "projectName": "JAVA-SUSE-23-24_40f453d1"
+    },
+    {
+      "type": "java",
+      "name": "corvonero",
+      "request": "launch",
+      "mainClass": "l04.e03_prima_prova.corvonero",
+      "projectName": "JAVA-SUSE-23-24_40f453d1"
+    },
+    {
+      "type": "java",
+      "name": "davide(3)",
+      "request": "launch",
+      "mainClass": "l04.e03_prima_prova.davide",
+      "projectName": "JAVA-SUSE-23-24_40f453d1"
+    },
+    {
+      "type": "java",
+      "name": "davide_corvonero",
+      "request": "launch",
+      "mainClass": "l04.e03_prima_prova.davide_corvonero",
+      "projectName": "JAVA-SUSE-23-24_40f453d1"
+    },
+    {
+      "type": "java",
+      "name": "francesca",
+      "request": "launch",
+      "mainClass": "l04.e03_prima_prova.francesca",
+      "projectName": "JAVA-SUSE-23-24_40f453d1"
+    },
+    {
+      "type": "java",
+      "name": "francesco_b(2)",
+      "request": "launch",
+      "mainClass": "l04.e03_prima_prova.francesco_b",
+      "projectName": "JAVA-SUSE-23-24_40f453d1"
+    },
+    {
+      "type": "java",
+      "name": "francesco_d(7)",
+      "request": "launch",
+      "mainClass": "l04.e03_prima_prova.francesco_d",
+      "projectName": "JAVA-SUSE-23-24_40f453d1"
+    },
+    {
+      "type": "java",
+      "name": "voti",
+      "request": "launch",
+      "mainClass": "l04.e03_prima_prova.nicolis_A_voti.bin.voti",
+      "projectName": "JAVA-SUSE-23-24_40f453d1"
+    },
+    {
+      "type": "java",
+      "name": "pietro2",
+      "request": "launch",
+      "mainClass": "l04.e03_prima_prova.pietro2",
+      "projectName": "JAVA-SUSE-23-24_40f453d1"
+    },
+    {
+      "type": "java",
+      "name": "ex1",
+      "request": "launch",
+      "mainClass": "l04.e03_prima_prova.pietrofornale.ex1",
+      "projectName": "JAVA-SUSE-23-24_40f453d1"
+    },
+    {
+      "type": "java",
+      "name": "severino(3)",
+      "request": "launch",
+      "mainClass": "l04.e03_prima_prova.severino",
+      "projectName": "JAVA-SUSE-23-24_40f453d1"
+    },
+    {
+      "type": "java",
+      "name": "CristoforiGiacomo",
+      "request": "launch",
+      "mainClass": "l04.e04_seconda_prova.CristoforiGiacomo",
+      "projectName": "JAVA-SUSE-23-24_40f453d1"
+    },
+    {
+      "type": "java",
+      "name": "davide_corvonero(1)",
+      "request": "launch",
+      "mainClass": "l04.e04_seconda_prova.davide_corvonero",
+      "projectName": "JAVA-SUSE-23-24_40f453d1"
+    },
+    {
+      "type": "java",
+      "name": "troll",
+      "request": "launch",
+      "mainClass": "l04.e04_seconda_prova.nicolis_A_troll.bin.troll",
+      "projectName": "JAVA-SUSE-23-24_40f453d1"
+    },
+    {
+      "type": "java",
+      "name": "ex2",
+      "request": "launch",
+      "mainClass": "l04.e04_seconda_prova.pietrofornale.ex2",
+      "projectName": "JAVA-SUSE-23-24_40f453d1"
+    },
+    {
+      "type": "java",
+      "name": "severino(4)",
+      "request": "launch",
+      "mainClass": "l04.e04_seconda_prova.severino",
+      "projectName": "JAVA-SUSE-23-24_40f453d1"
+    },
+    {
+      "type": "java",
+      "name": "ex3",
+      "request": "launch",
+      "mainClass": "l04.e05_terza_prova.pietrofornale.ex3",
+      "projectName": "JAVA-SUSE-23-24_40f453d1"
+    },
+    {
+      "type": "java",
+      "name": "Data",
+      "request": "launch",
+      "mainClass": "nicolis_A_Eta.bin.Data",
+      "projectName": "JAVA-SUSE-23-24_40f453d1"
+    },
+    {
+      "type": "java",
+      "name": "Eta",
+      "request": "launch",
+      "mainClass": "nicolis_A_Eta.bin.Eta",
+      "projectName": "JAVA-SUSE-23-24_40f453d1"
+    },
+    {
+      "type": "java",
+      "name": "scanNameAge",
+      "request": "launch",
+      "mainClass": "pietrofornale.scanNameAge",
+      "projectName": "JAVA-SUSE-23-24_40f453d1"
+    },
+    {
+      "type": "java",
+      "name": "thomas(6)",
+      "request": "launch",
+      "mainClass": "thomas",
+      "projectName": "JAVA-SUSE-23-24_40f453d1"
+    }
+  ]
+}
