@@ -1,0 +1,4 @@
+Scrivi cappelloParlante.java che per mezzo 
+di un ArrayList selezioni i nomi dei partecipanti
+del corso e li assegni alle 
+varie case tramite Math.random().
