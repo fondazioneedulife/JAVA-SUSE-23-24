@@ -2,8 +2,6 @@ package l04.e04_seconda_prova.nicolis_A_troll.bin;
 
 import java.util.Scanner;
 
-import esercizie06_funzioni.sol;
-
 class troll {
 
         public static void main(String[] args) {
@@ -29,5 +27,8 @@ class troll {
                                 System.out.println("Splat! Il Troll ti ha spalmato sulla parete");
                         }
                 }
+                sc.close();
+
+        
         }
 }
