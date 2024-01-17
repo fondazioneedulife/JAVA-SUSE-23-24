@@ -40,15 +40,12 @@ public class soluzione {
         }
         System.out.println("Il numero pensato è "+numero_pensato);
     }
+
     static void lista_numeri(int numeri_da_saltare){
-        int a = 0;
         boolean stampa = false;
-
-        // 0 no 1 no 2 si 3 si 4 no 5 no 
-
         for(int i=0;i<63;i++){
             if(stampa){
-                System.out.println(i-1+"\t");
+                System.out.print(i-1+"\t");
             }
             if(i%numeri_da_saltare==0 && i !=0){
                 stampa=!stampa;
@@ -56,4 +53,5 @@ public class soluzione {
         }
         System.out.println("\n");
     }
+    
 }
