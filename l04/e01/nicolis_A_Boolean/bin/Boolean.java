@@ -9,7 +9,6 @@ class Boolean {
                 System.out.println("che occupazione hai? studente, preside o insegnante");
                 String occupString = sc.nextLine();
 
-                
                 System.out.println("hai una divisa?");
                 boolean divisa = sc.nextBoolean();
                 boolean studente = false;
@@ -18,9 +17,6 @@ class Boolean {
                 System.out.println("hai un cane?");
                 boolean cane = sc.nextBoolean();
                 boolean occupazione = false;
-                
-                
-                
 
                 if (occupString.equals("studente")){
                         studente = true;
@@ -29,6 +25,7 @@ class Boolean {
                 }else{
                         occupazione = false;
                 }
+                
                 
                 if (cane == true){
                         System.out.println("non puoi entrare");
