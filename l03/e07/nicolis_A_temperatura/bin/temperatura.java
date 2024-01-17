@@ -13,10 +13,9 @@ class temperatura {
                 }
                 // equivalente di xor
                 else if((piove || temp <10) && !(piove && temp<10)){
-                System.out.println("ombrello");
-                }
-                else{
-                System.out.println("scopa");
+                        System.out.println("ombrello");
+                }else{
+                        System.out.println("scopa");
                 }
                 sc.close();
         }        
