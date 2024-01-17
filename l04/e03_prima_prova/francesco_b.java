@@ -1,7 +1,4 @@
 package l04.e03_prima_prova;
-/**
- * davide_corvonero
- */
 public class francesco_b {
 
     public static void main(String[] args) {
