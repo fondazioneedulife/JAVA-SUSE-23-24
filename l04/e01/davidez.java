@@ -27,7 +27,7 @@ public class davidez {
     }
 }
 private static boolean entro(boolean uniforme, boolean studente, boolean insegnante, boolean preside, boolean fantasma, boolean cane){
-    return((uniforme && studente) || insegnante || preside || fantasma) && !(cane);
+    return((uniforme && studente) && (studente || insegnante || preside || fantasma) && !(cane));
 
 }
 
