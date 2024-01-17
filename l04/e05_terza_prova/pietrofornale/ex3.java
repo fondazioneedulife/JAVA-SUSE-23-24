@@ -36,7 +36,7 @@ public class ex3 {
           System.out.print(j + " ");
         }
         if (count == ser) {
-          count = 0;
+          count = 1;
           check *= -1;
         }
         count++;
