@@ -1,8 +1,5 @@
 package l04.e03_prima_prova;
-/**
- * davide_corvonero
- */
-public class davide_corvonero {
+public class francesco_b {
 
     public static void main(String[] args) {
         int voto=2;
@@ -26,7 +23,6 @@ public class davide_corvonero {
                 System.out.println("Troll");
                 break;
             default:
-                System.out.println("Input non corretto AHAHHAHAHA MONGOLOIDE");
                 break;
         }
     }
