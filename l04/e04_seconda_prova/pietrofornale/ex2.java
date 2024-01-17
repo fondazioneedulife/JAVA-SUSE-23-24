@@ -1,4 +1,4 @@
-//package l04.e04_seconda_prova.pietrofornale;
+package l04.e04_seconda_prova.pietrofornale;
 
 import java.util.Scanner;
 
