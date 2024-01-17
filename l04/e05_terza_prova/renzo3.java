@@ -6,7 +6,7 @@ public class renzo3 {
         int numeroPensato = 0;
         System.out.println("Scegli un numero da 1 a 62");
         
-        for(int i = 1; i <= 62; i+=2){
+        for(int i = 1; i < 63; i+=2){
             System.out.println(i);
         }
         
@@ -17,11 +17,11 @@ public class renzo3 {
         }
 
         int salto = 2;
-        for(int i = 0; i <= 62; i++){
+        for(int i = 0; i < 63; i++){
             if(i % salto == 0){
                 i += salto;
             }
-            System.out.println(i);
+            System.out.print(i + " ");
         }
 
         System.out.println("Il tuo numero compare?\nS/N");
@@ -31,11 +31,11 @@ public class renzo3 {
         }
         
         salto = 4;
-        for(int i = 0; i <= 62; i++){
+        for(int i = 0; i < 63; i++){
             if(i % salto == 0){
                 i += salto;
             }
-            System.out.println(i);
+            System.out.print(i + " ");
         }
 
         System.out.println("Il tuo numero compare?\nS/N");
@@ -45,11 +45,11 @@ public class renzo3 {
         }
 
         salto = 8;
-        for(int i = 0; i <= 62; i++){
+        for(int i = 0; i < 63; i++){
             if(i % salto == 0){
                 i += salto;
             }
-            System.out.println(i);
+            System.out.print(i + " ");
         }
 
         System.out.println("Il tuo numero compare?\nS/N");
@@ -59,11 +59,11 @@ public class renzo3 {
         }
 
         salto = 16;
-        for(int i = 0; i <= 62; i++){
+        for(int i = 0; i < 63; i++){
             if(i % salto == 0){
                 i += salto;
             }
-            System.out.println(i);
+            System.out.print(i + " ");
         }
 
         System.out.println("Il tuo numero compare?\nS/N");
@@ -73,11 +73,11 @@ public class renzo3 {
         }
 
         salto = 32;
-        for(int i = 0; i <= 62; i++){
+        for(int i = 0; i < 63; i++){
             if(i % salto == 0){
                 i += salto;
             }
-            System.out.println(i);
+            System.out.print(i + " ");
         }
 
         System.out.println("Il tuo numero compare?\nS/N");
