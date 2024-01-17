@@ -1,3 +1,4 @@
+package l02.e02.altro;
 import java.util.Scanner;
 
 public class torredellamorte{
