@@ -21,6 +21,8 @@ public class francesco_d {
             if (voto == 0 || voto == 2) {
                 System.out.println("Troll");
             }
+            System.out.println("Non valido");
+            sc.close();
         }
     }
 }
