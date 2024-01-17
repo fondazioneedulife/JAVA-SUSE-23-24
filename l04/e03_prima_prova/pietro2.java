@@ -1,6 +1,8 @@
+package l04.e03_prima_prova;
+
 import java.util.Scanner;
 
-public class valutazione {
+public class pietro2 {
 
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
@@ -33,6 +35,8 @@ public class valutazione {
             case 1:
             case 0:
                 return "Troll";
+            default:
+                return "Voto non valido";
         }
     }
 }
