@@ -6,6 +6,13 @@
   "configurations": [
     {
       "type": "java",
+      "name": "soluzione",
+      "request": "launch",
+      "mainClass": "l05.e01.Docente.soluzione",
+      "projectName": "JAVA-SUSE-23-24_aaa57d32"
+    },
+    {
+      "type": "java",
       "name": "numeroScelto",
       "request": "launch",
       "mainClass": "l04.e05_terza_prova.nicolis_A_ordineNumero.bin.numeroScelto",

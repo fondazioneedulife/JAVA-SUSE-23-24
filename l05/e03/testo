@@ -1,0 +1,22 @@
+La classe Smartphone
+        Progettare la classe Smartphone come descritta dal diagramma UML all'interno del file Smartphone.java. 
+La classe Smartphone deve contenere:
+        sei attributi privati: marca, modello, prezzoDiLancio, numPollici, ram e touchScreen.
+        due costruttori: il costruttore di default ed il costruttore personalizzato con tutti i parametri per inizializzare i valori degli attributi.
+        i metodi getter e setter per tutti gli attributi.
+        il metodo ottieniFasciaDiPrezzo() che restituisce:
+        la stringa "fascia ALTA" se il prezzo è superiore a 500€;
+        la stringa "fascia MEDIA" se il prezzo è compreso tra 200€ e 500€;
+        la stringa "fascia BASSA" se il prezzo è minore di 200€.
+        il metodo ottieniTipologiaSmartphone() che restituisce:
+        la stringa "Mini" se il numero di pollici è minore di 5 pollici;
+        la stringa "Normal" se il numero di pollici è compreso tra 5 pollici e 7 pollici;
+        la stringa "Maxi" se il numero di pollici è superiore a 7 pollici.
+        il metodo toString() che restituisce una stringa in grado di mostrare tutti i valori contenuti negli attributi della classe, la fascia di prezzo e la tipologia di smartphone.
+        Infine, creare un secondo file TestSmartphone.java 
+        dove poter creare i seguenti due oggetti di tipo Smartphone:
+        l'oggetto smartphone1, creato con il costruttore di default ed i cui valori devono essere inseriti tramite la tastiera;
+        l'oggetto smartphone2, creato con il costruttore personalizzato ed i cui valori devono essere inseriti tramite la tastiera.
+        N.B. nel file TestSmartphone.java va controllato l'input dell'utente! Ossia bisogna assicurarsi che i valori inseriti da tastiera siano ammissibili.
+
+

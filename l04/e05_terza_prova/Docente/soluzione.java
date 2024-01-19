@@ -1,7 +1,10 @@
 package l04.e05_terza_prova.Docente;
 
 import java.util.Scanner;
-
+/**
+ * Si potevano usare anche le bitwise operation
+ * e anche math.pow per calcolare gli esponenziali
+ **/
 public class soluzione {
     public static void main(String[] args){
         Scanner sc = new Scanner(System.in);
