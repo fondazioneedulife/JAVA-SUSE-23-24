@@ -8,6 +8,34 @@
       "type": "java",
       "name": "soluzione",
       "request": "launch",
+      "mainClass": "l05.e05.Docente.soluzione",
+      "projectName": "JAVA-SUSE-23-24_34d76b67"
+    },
+    {
+      "type": "java",
+      "name": "soluzione",
+      "request": "launch",
+      "mainClass": "l05.e04.Docente.soluzione",
+      "projectName": "JAVA-SUSE-23-24_34d76b67"
+    },
+    {
+      "type": "java",
+      "name": "soluzione",
+      "request": "launch",
+      "mainClass": "l05.e03.Docente.soluzione",
+      "projectName": "JAVA-SUSE-23-24_34d76b67"
+    },
+    {
+      "type": "java",
+      "name": "soluzione",
+      "request": "launch",
+      "mainClass": "l05.e02.Docente.soluzione",
+      "projectName": "JAVA-SUSE-23-24_34d76b67"
+    },
+    {
+      "type": "java",
+      "name": "soluzione",
+      "request": "launch",
       "mainClass": "l05.e01.Docente.soluzione",
       "projectName": "JAVA-SUSE-23-24_aaa57d32"
     },
