@@ -6,6 +6,27 @@
   "configurations": [
     {
       "type": "java",
+      "name": "soluzione",
+      "request": "launch",
+      "mainClass": "l04.e01.docente.soluzione",
+      "projectName": "JAVA-SUSE-23-24_a625bd65"
+    },
+    {
+      "type": "java",
+      "name": "algoritmo",
+      "request": "launch",
+      "mainClass": "l02.e02.algortimo_pfd.algoritmo",
+      "projectName": "JAVA-SUSE-23-24_a625bd65"
+    },
+    {
+      "type": "java",
+      "name": "e03",
+      "request": "launch",
+      "mainClass": "l03.e03.Docente.e03",
+      "projectName": "JAVA-SUSE-23-24_a625bd65"
+    },
+    {
+      "type": "java",
       "name": "esercizio",
       "request": "launch",
       "mainClass": "l05.e00.Docente.esercizio",
