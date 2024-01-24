@@ -1,7 +1,4 @@
 {
-  // Use IntelliSense to learn about possible attributes.
-  // Hover to view descriptions of existing attributes.
-  // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
   "version": "0.2.0",
   "configurations": [
     {
@@ -884,6 +881,25 @@
       "request": "launch",
       "mainClass": "thomas",
       "projectName": "JAVA-SUSE-23-24_40f453d1"
+    },
+    {
+      "name": "C/C++ Runner: Debug Session",
+      "type": "cppdbg",
+      "request": "launch",
+      "args": [],
+      "stopAtEntry": false,
+      "externalConsole": true,
+      "cwd": "c:/Users/Piater/Documents/ITS/Java-ITS/GitHub/JAVA-SUSE-23-24/l05/e00/pietrofornale",
+      "program": "c:/Users/Piater/Documents/ITS/Java-ITS/GitHub/JAVA-SUSE-23-24/l05/e00/pietrofornale/build/Debug/outDebug",
+      "MIMode": "gdb",
+      "miDebuggerPath": "gdb",
+      "setupCommands": [
+        {
+          "description": "Enable pretty-printing for gdb",
+          "text": "-enable-pretty-printing",
+          "ignoreFailures": true
+        }
+      ]
     }
   ]
 }
