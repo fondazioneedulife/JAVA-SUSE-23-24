@@ -1,21 +1,10 @@
-La classe Giocatore
-Progettare la classe Giocatore. 
-La classe Giocatore deve contenere:
-        Quattro attributi privati:
-        L'attributo nome di tipo String;
-        L'attributo capitano di tipo boolean;
-        L'attributo goal di tipo int;
-        L'attributo goalNazionale di tipo int.
-        Due costruttori
-        Il costruttore di default;
-Il costruttore personalizzato con tutti i parametri per inizializzare i valori degli attributi.
-    Dieci metodi
-    1-8. Metodi get e setter per tutti gli atributi;
-	9. Il metodo calcolaGoalTotali() in grado di calcolare la somma dei goal fatti dal giocatore tra il club e la nazionale;
-	10. Il metodo toString per poter creare una stringa in grado di mostrare i valori contenuti all'interno del Giocatore.
-       Infine, creare un secondo file TestGiocatore.java  dove poter creare i seguenti tre oggetti di tipo Giocatore:
-       l'oggetto totti, creato con il costruttore di default ed i valori assegnati grazie ai metodi set;
-       l'oggetto zanetti, creato con il costruttore personalizzato;
-       l'oggetto delPiero, creato con il costruttore di default ed i cui valori devono essere inseriti tramite la tastiera.
-
-
+Si faccia un esempio di codice Java che 
+illustra l'ereditarietà delle classi 
+con studenti e professori di Hogwarts, 
+considerando la possibilità che siano maghi 
+o mezzosangue e animagus. 
+I professori insegnano una materia,
+gli studenti hanno un anno di iscrizione, 
+con un opportuno metodo viene restituito 
+se sono al primo anno, secondo ecc. 
+Gli studenti appartengono ad una casa.

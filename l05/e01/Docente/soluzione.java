@@ -1,68 +1,47 @@
 package l05.e01.Docente;
-// Classe base per rappresentare una persona magica
-class PersonaMagica {
-    String nome;
-    boolean mago;
-    boolean mezzosangue;
-    boolean animagus;
+import java.util.Scanner;
+// File: TestGiocatore.java
 
-    public PersonaMagica(String nome, boolean mago, boolean mezzosangue, boolean animagus) {
-        this.nome = nome;
-        this.mago = mago;
-        this.mezzosangue = mezzosangue;
-        this.animagus = animagus;
-    }
-
-    public void descrizione() {
-        System.out.println("Nome: " + nome);
-        System.out.println("Tipo: " + (mago ? "Mago" : "Babbano"));
-        System.out.println("Mezzosangue: " + (mezzosangue ? "Sì" : "No"));
-        System.out.println("Animagus: " + (animagus ? "Sì" : "No"));
-    }
-}
-
-// Classe per rappresentare uno studente di Hogwarts
-class Studente extends PersonaMagica {
-    String casa;
-
-    public Studente(String nome, boolean mago, boolean mezzosangue, boolean animagus, String casa) {
-        super(nome, mago, mezzosangue, animagus);
-        this.casa = casa;
-    }
-
-    // Possibili metodi specifici per gli studenti
-    public void partecipaLezioni() {
-        System.out.println(nome + " sta partecipando alle lezioni di Hogwarts.");
-    }
-}
-
-// Classe per rappresentare un professore di Hogwarts
-class Professore extends PersonaMagica {
-    String materiaInsegnata;
-
-    public Professore(String nome, boolean mago, boolean mezzosangue, boolean animagus, String materiaInsegnata) {
-        super(nome, mago, mezzosangue, animagus);
-        this.materiaInsegnata = materiaInsegnata;
-    }
-
-    // Possibili metodi specifici per i professori
-    public void tieneLezione() {
-        System.out.println(nome + " sta tenendo una lezione su " + materiaInsegnata + ".");
-    }
-}
-
-// Esempio di utilizzo delle classi
 public class soluzione {
     public static void main(String[] args) {
-        Studente harry = new Studente("Harry Potter", true, false, false, "Grifondoro");
-        Professore snape = new Professore("Severus Snape", true, true, false, "Pozioni");
+        // Creazione dell'oggetto totti con il costruttore di default
+        Giocatore totti = new Giocatore();
+        totti.setNome("Francesco Totti");
+        totti.setCapitano(true);
+        totti.setGoal(250);
+        totti.setGoalNazionale(30);
 
-        harry.descrizione();
-        harry.partecipaLezioni();
+        // Creazione dell'oggetto zanetti con il costruttore personalizzato
+        Giocatore zanetti = new Giocatore("Javier Zanetti", false, 40, 10);
 
-        System.out.println("\n");
+        // Creazione dell'oggetto delPiero con il costruttore di default e input da tastiera
+        Giocatore delPiero = new Giocatore();
+        // Utilizza la classe Scanner per leggere input da tastiera
+        Scanner scanner = new Scanner(System.in);
 
-        snape.descrizione();
-        snape.tieneLezione();
+        System.out.println("Inserisci il nome del giocatore delPiero: ");
+        delPiero.setNome(scanner.nextLine());
+
+        System.out.println("Il giocatore delPiero è capitano? (true/false): ");
+        delPiero.setCapitano(scanner.nextBoolean());
+
+        System.out.println("Inserisci il numero di goal del giocatore delPiero: ");
+        delPiero.setGoal(scanner.nextInt());
+
+        System.out.println("Inserisci il numero di goal della nazionale del giocatore delPiero: ");
+        delPiero.setGoalNazionale(scanner.nextInt());
+
+        // Chiudi lo scanner
+        scanner.close();
+
+        // Stampare i dettagli dei giocatori
+        System.out.println("Dettagli di Totti: " + totti);
+        System.out.println("Dettagli di Zanetti: " + zanetti);
+        System.out.println("Dettagli di delPiero: " + delPiero);
+
+        // Calcolare e stampare la somma dei goal totali per ogni giocatore
+        System.out.println("Goal totali di Totti: " + totti.calcolaGoalTotali());
+        System.out.println("Goal totali di Zanetti: " + zanetti.calcolaGoalTotali());
+        System.out.println("Goal totali di delPiero: " + delPiero.calcolaGoalTotali());
     }
 }
