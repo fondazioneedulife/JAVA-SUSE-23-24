@@ -1,0 +1,13 @@
+La classe Canzone e la playlist preferita
+        Realizzare la classe Canzone che i seguenti tre attributi: nome, cantante e durata. Di tale classe si implementi i costruttore di default, quello parametrizzato, i metodi get, set ed il metodo toString.
+        Implementare la classe MainCanzone in cui il metodo main deve permettere all'utente di inserire la propria playlist preferita. In particolare nele main si deve:
+        chiedere all'utente da quante canzoni è costituita la propria playlist preferita (almeno una canzone);
+        dichiarare e inizializzare un vettore in grado di contenere tali canzoni;
+        (Suggerimento: bisogna creare un vettore di tipo Canzone. Per capire come crearlo è sufficiente ricordare come si crea un vettore di interi e sostituire al posto della parola "int" la parola "Canzone").
+        all'interno di un ciclo for, che itera in base al numero di canzoni, creare le canzoni e memorizzarle nel vettore.
+        stampare a schermo la playlist;
+        indicare il nome della canzone più lunga e la media della durata delle canzoni contenute nella playlist.
+        Si realizzi il class diagram per la classe Canzone e si documenti il codice.
+
+
+

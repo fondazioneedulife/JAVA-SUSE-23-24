@@ -1,0 +1,16 @@
+Riprendere la classe Canzone definita nell'esercizio precedente. Creare adesso la classe Playlist che ha un solo attributo: playlist. Tale attributo è un vettore di tipo Canzone. Di tale classe si implementi:
+         il metodo costruttore che prende come parametro il vettore di canzoni;
+        i metodi che modificano il titolo, il cantante e la durata:
+        modificaTitolo(int pos, String tit) : deve essere in grado di modificare il titolo della canzone che si trova in posizione pos.
+        modificaCantante(int pos, String can) : deve essere in grado di modificare il cantante della canzone che si trova in posizione pos.
+        modificaDurata(int pos, double dur) : deve essere in grado di modificare la durata della canzone che si trova in posizione pos.
+        il metodo toString che deve restituire una stringa con l'intera playlist.
+        Il metodo main deve consentire di creare una playlist.
+Una volta creata la playlist avviare un menu iterativo in grado di:
+        modifcare il titolo di una canzone
+        modificare il cantante di una canzone
+        modificare la durata di una canzone
+        visualizzare la playlist
+        uscire  dal menu
+
+
