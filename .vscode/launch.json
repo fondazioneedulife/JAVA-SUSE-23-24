@@ -6,6 +6,13 @@
   "configurations": [
     {
       "type": "java",
+      "name": "esercizio",
+      "request": "launch",
+      "mainClass": "l05.e00.Docente.esercizio",
+      "projectName": "JAVA-SUSE-23-24_a625bd65"
+    },
+    {
+      "type": "java",
       "name": "soluzione",
       "request": "launch",
       "mainClass": "l05.e05.Docente.soluzione",
