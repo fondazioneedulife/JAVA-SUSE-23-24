@@ -24,8 +24,9 @@ Il costruttore personalizzato con tutti i parametri per inizializzare i valori d
 public class francesco_b(){
     public static void main(String[] args) {
         
-        Giocatore oggetto = new Giocatore(francesco, True, 0, 0);
+        Giocatore totti = new totti(francesco, true, 0, 0);
         
+
         System.out.println(oggetto.getNome());
         
     }
