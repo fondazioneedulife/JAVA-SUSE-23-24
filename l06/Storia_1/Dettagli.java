@@ -1,4 +1,4 @@
-package l06.storia.Docente;
+package Storia_1;
 
 public interface Dettagli {
     //Fornisce il nome del protagonista
