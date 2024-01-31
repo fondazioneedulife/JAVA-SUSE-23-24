@@ -11,7 +11,7 @@ public class Ricordi implements Dettagli{
     }
 
     public String getWork() {
-        return "un abile marinaio";
+        return " un abile tombarolo";
     }
     
     public String getEvent() {
