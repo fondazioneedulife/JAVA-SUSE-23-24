@@ -18,6 +18,6 @@ public class Ricordi implements Dettagli{
 
     
     public String getActivity() {
-       return "Mattia ruba la macchina di Leoka e scappa via";
+       return "Mattia ruba la nave di Leoka e scappa via";
     }
 }
