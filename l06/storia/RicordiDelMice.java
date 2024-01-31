@@ -1,27 +1,23 @@
-package Storia_1;
-
 public class Ricordi implements Dettagli{
 
     public String getMainCharacter() {
-        return "Mic";
+        return "Mattia";
     }
 
     public String getEnemy() {
-        return "Pigli";
+        return "Leoka";
     }
 
     public String getWork() {
-        return " un abile tombarolo";
+        return "l'intimidatore";
     }
     
     public String getEvent() {
-      return "pigli risorse";
+      return "arrivò una grande Bombarolo insieme all'esercito di scheletri";
     }
 
     
     public String getActivity() {
-       return "brindarono tutti assieme";
+       return "Mattia ruba la nave di Leoka e scappa via";
     }
-    
 }
-
