@@ -1,23 +1,23 @@
-package l06.es03;
+package l06.storia.Paolo_Giacomo;
 
 public class Dettagli_paolo{    
     String getMainCharacter(){
-        return "Mario"
+        return "Mario";
     } //fornisce il nome del protagonista.
 
     String getEnemy(){
-        return "Luigi"
+        return "Luigi";
     } //fornisce il nome dell’antagonista.
 
     String getWork(){
-        return ""
+        return "";
     } //fornisce il lavoro del protagonista.
 
     String getEvent(){
-        return ""
+        return "";
     } //fornisce un’intera frase che costituisce un evento inaspettato
 
     String getActivity(){
-        return ""
+        return "";
     }
 }
