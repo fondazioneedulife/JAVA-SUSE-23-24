@@ -1,12 +1,11 @@
 package l06.e00.pietrofornale;
 
 
-public class Dog {
+public class Dog{    
     private String name;
   
     public Dog() {
         this.name = "";
-        
     }
     
     public Dog(String name) {
