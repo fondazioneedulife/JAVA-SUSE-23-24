@@ -15,7 +15,7 @@ public class Ricordi implements Dettagli{
     }
     
     public String getEvent() {
-      return "arrivò una grande onda";
+      return "pigli risorse";
     }
 
     
