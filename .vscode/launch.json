@@ -3,6 +3,7 @@
   "configurations": [
     {
       "type": "java",
+<<<<<<< HEAD
       "name": "testFarm",
       "request": "launch",
       "mainClass": "l06.e00.pietrofornale.testFarm",
@@ -14,6 +15,12 @@
       "request": "launch",
       "mainClass": "l06.e00.pietrofornale.testAnimals",
       "projectName": "JAVA-SUSE-23-24_881de181"
+=======
+      "name": "Soluzione",
+      "request": "launch",
+      "mainClass": "l06.e00.Docente.Soluzione",
+      "projectName": "JAVA-SUSE-23-24_aaa57d32"
+>>>>>>> 0ea493aa4756d66aecdd782a5e3d8f431dc16f20
     },
     {
       "type": "java",
