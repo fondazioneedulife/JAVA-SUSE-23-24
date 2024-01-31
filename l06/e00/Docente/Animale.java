@@ -2,7 +2,8 @@ package l06.e00.Docente;
 
 public abstract class Animale {
     String nome;
-
+    public Animale(){
+    }
     public Animale(String unNome){
         nome = unNome;
     }
