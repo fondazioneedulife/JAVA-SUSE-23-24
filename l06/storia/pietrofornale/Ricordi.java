@@ -1,25 +1,25 @@
-package l06.e03.pietrofornale;
+package pietrofornale;
 
 public class Ricordi implements Dettagli{
 
     public String getMainCharacter() {
-        return "Paolo";
+        return "Abdul";
     }
 
     public String getEnemy() {
-        return "Pietro";
+        return "Stati Uniti d'America";
     }
 
     public String getWork() {
-        return "un abile marinaio";
+        return "talebano";
     }
     
     public String getEvent() {
-      return "arrivò una grande onda";
+      return "";
     }
 
     
     public String getActivity() {
-       return "brindarono tutti assieme";
+       return "brindavano tutti assieme";
     }
 }
