@@ -1,4 +1,4 @@
-package l06.e03.pietrofornale;
+package pietrofornale;
 
 public interface Dettagli {
     public String getMainCharacter();

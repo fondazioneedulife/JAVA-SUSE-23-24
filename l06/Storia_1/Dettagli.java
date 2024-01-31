@@ -13,6 +13,3 @@ public interface Dettagli {
     String getActivity();
 }
 
-public interface Dettagli{
-    SEVERINO
-}
