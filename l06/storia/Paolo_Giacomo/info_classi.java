@@ -1,4 +1,4 @@
-package lez06;
+package l06.storia.Paolo_Giacomo;
 
 public class info_classi implements get_info{
 

@@ -1,4 +1,4 @@
-package lez06;
+package l06.storia.Paolo_Giacomo;
 
 public interface get_info {
         //Fornisce il nome del protagonista
