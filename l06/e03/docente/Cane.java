@@ -1,6 +1,6 @@
 package l06.e03.docente;
 
-public class Cane extends Animal{
+public class Cane{
     private int anno;
     public Cane(int a){
         this.anno=a;
