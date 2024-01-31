@@ -5,6 +5,13 @@
       "type": "java",
       "name": "dogMain",
       "request": "launch",
+      "mainClass": "l06.e00.pietrofornale.dogMain",
+      "projectName": "JAVA-SUSE-23-24_881de181"
+    },
+    {
+      "type": "java",
+      "name": "dogMain",
+      "request": "launch",
       "mainClass": "pietrofornale.dogMain",
       "projectName": "JAVA-SUSE-23-24_881de181"
     },
