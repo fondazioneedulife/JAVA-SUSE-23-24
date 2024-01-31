@@ -17,7 +17,7 @@ public class storia{
         ", sta facendo i conti come al solito con l'ennesimo\n " + nemesi + 
         ". La battaglia fu feroce e spietata come ogni dannatissimo lunedì, ma ecco che\n "
         + evento + ", che con " + attività + 
-        ",\n non fece altro che deprimerlo ulteriormente, finendo per essere l'ennesima vittima del capitalismo moderno.\n Ah si, poi andò a comprarsi un panino dal kebabbaro e si sentì meno peggio\n";
+        ",\n non fece altro che deprimerlo ulteriormente, finendo per farlo diventare l'ennesima vittima del capitalismo moderno.\n Ah si, poi andò a comprarsi un panino dal kebabbaro e si sentì meno peggio\n";
         System.out.println(storiaccia);
     }
     
