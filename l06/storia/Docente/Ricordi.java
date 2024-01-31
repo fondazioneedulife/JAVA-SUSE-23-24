@@ -11,7 +11,7 @@ public class Ricordi implements Dettagli{
     }
 
     public String getWork() {
-        return "un abile marinaio";
+        return "marinaio";
     }
     
     public String getEvent() {
@@ -20,7 +20,7 @@ public class Ricordi implements Dettagli{
 
     
     public String getActivity() {
-       return "brindarono tutti assieme";
+       return "brindisi tutti assieme";
     }
     
 }
