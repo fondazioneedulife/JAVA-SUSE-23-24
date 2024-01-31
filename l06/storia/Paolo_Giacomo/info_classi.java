@@ -3,7 +3,7 @@ package l06.storia.Paolo_Giacomo;
 public class info_classi implements get_info{
 
     public String getMainCharacter() {
-        return "El negrito";
+        return "Er maestro del crossbar challenge";
     }
 
     public String getEnemy() {
