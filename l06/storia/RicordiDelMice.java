@@ -1,15 +1,15 @@
 public class Ricordi implements Dettagli{
 
     public String getMainCharacter() {
-        return "Mattia";
+        return "Anton Cigourh";
     }
 
     public String getEnemy() {
-        return "Leoka";
+        return "John Wick";
     }
 
     public String getWork() {
-        return "l'intimidatore";
+        return "L'intimidatore";
     }
     
     public String getEvent() {
@@ -18,6 +18,6 @@ public class Ricordi implements Dettagli{
 
     
     public String getActivity() {
-       return "Mattia ruba la nave di Leoka e scappa via";
+       return "John uccide Anton";
     }
 }
