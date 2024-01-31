@@ -1,4 +1,4 @@
-package l06.storia.Docente;
+package Docente;
 
 public class Storia {
     public static final String reset = "\u001B[0m";
@@ -14,7 +14,7 @@ public class Storia {
     public static final String fine =   "\n****************************************\n\n";
     public static void main(String[] args) {
 
-        Dettagli dettagli = new Ricordi();
+        Dettagli dettagli = new RicordiDiPietro();
         String personaggioPrincipale=colore(dettagli.getMainCharacter());
         String antagonista=colore(dettagli.getEnemy());
         String lavoro=colore(dettagli.getWork());
