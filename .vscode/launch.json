@@ -5,6 +5,13 @@
       "type": "java",
       "name": "soluzione",
       "request": "launch",
+      "mainClass": "l05.e01.Docente.soluzione",
+      "projectName": "JAVA-SUSE-23-24_28e870bb"
+    },
+    {
+      "type": "java",
+      "name": "soluzione",
+      "request": "launch",
       "mainClass": "l04.e01.docente.soluzione",
       "projectName": "JAVA-SUSE-23-24_a625bd65"
     },
