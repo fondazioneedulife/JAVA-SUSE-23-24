@@ -13,7 +13,6 @@ public static final String white = "\u001B[37m";
     public static void main(String[] args) {
 
         Dettagli dettagli = new Ricordi();
-
         String personaggioPrincipale=colore(dettagli.getMainCharacter());
         String antagonista=colore(dettagli.getEnemy());
         String lavoro=colore(dettagli.getWork());
@@ -24,7 +23,7 @@ public static final String white = "\u001B[37m";
         String laMiaStoria= titolo+ personaggioPrincipale + ", abile "+lavoro+", solcava il mare con la sua barca, la \"Sirena d'Argento\". In lontananza, spuntò una nave pirata guidata dal temibile "+//
          antagonista+". La battaglia fu feroce, ma con astuzia, Marco respinse l'assalto.\n" + 
                 " Mentre la ciurma esultava, "+eventoInatteso+". " +personaggioPrincipale+" e la ciurma si misero a compiere "+attivita+", dimenticando le tensioni.\n" + //
-                " Il sole tramontò, dipingendo il cielo di tonalità calde. Quella giornata divenne leggenda, una storia di coraggio e magia tra le onde del vasto mare.\n" + //
+                " Il sole tramontò, dipingendo il cielo di tonalità calde, tutti erano felici.\n" + //
                 fine;
         System.out.println(laMiaStoria);
     }
