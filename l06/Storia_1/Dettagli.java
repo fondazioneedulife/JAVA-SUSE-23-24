@@ -12,3 +12,7 @@ public interface Dettagli {
     //Fornisce un'attività ricreativa
     String getActivity();
 }
+
+public interface Dettagli{
+    SEVERINO
+}
