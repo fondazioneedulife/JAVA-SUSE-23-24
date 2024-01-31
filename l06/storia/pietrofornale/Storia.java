@@ -27,7 +27,7 @@ public class Storia {
         String ending = "\n****************************************\n\n";
 
 
-        String laMiaStoria = title + mainCharacter + ", abile " + work + ", solcava il mare con il suo veivolo volante, il \"Boeing 757\". In lontananza, spuntò una coppia di edifici imponenti di proprietà degli " + enemy + ". La battaglia fu feroce, ma con astuzia, " + mainCharacter + " le affondò.\n" + //
+        String laMiaStoria = title + mainCharacter + ", abile " + work + ", solcava il mare con il suo velivolo volante, il \"Boeing 757\". In lontananza, spuntò una coppia di edifici imponenti di proprietà degli " + enemy + ". La battaglia fu feroce, ma con astuzia, " + mainCharacter + " le affondò.\n" + //
                 "Mentre la ciurma esplodeva, in Afghanistan " + activity + ", dimenticando le tensioni.\n" + //
                 "Il sole tramontò, dipingendo il cielo di tonalità calde. Quella giornata divenne leggenda, una storia di coraggio e magia tra i venti del vasto cielo.\n" + ending;
         System.out.println(laMiaStoria);
