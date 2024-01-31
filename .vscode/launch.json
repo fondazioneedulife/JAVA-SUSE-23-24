@@ -3,6 +3,27 @@
   "configurations": [
     {
       "type": "java",
+      "name": "Soluzione",
+      "request": "launch",
+      "mainClass": "l06.e03.docente.Soluzione",
+      "projectName": "suse_95aa8e2f"
+    },
+    {
+      "type": "java",
+      "name": "Soluzione",
+      "request": "launch",
+      "mainClass": "l06.e02.docente.Soluzione",
+      "projectName": "suse_95aa8e2f"
+    },
+    {
+      "type": "java",
+      "name": "Soluzione",
+      "request": "launch",
+      "mainClass": "l06.e01.docente.Soluzione",
+      "projectName": "suse_95aa8e2f"
+    },
+    {
+      "type": "java",
       "name": "soluzione",
       "request": "launch",
       "mainClass": "l05.e01.Docente.soluzione",
