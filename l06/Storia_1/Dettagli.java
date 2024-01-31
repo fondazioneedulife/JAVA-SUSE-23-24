@@ -24,3 +24,7 @@ public class Ricordi implements Dettagli{
     }
     
 }
+
+public interface Dettagli{
+    SEVERINO
+}
