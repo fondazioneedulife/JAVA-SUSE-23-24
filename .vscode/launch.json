@@ -3,6 +3,13 @@
   "configurations": [
     {
       "type": "java",
+      "name": "Soluzione",
+      "request": "launch",
+      "mainClass": "l06.e00.Docente.Soluzione",
+      "projectName": "JAVA-SUSE-23-24_28e870bb"
+    },
+    {
+      "type": "java",
       "name": "dogMain",
       "request": "launch",
       "mainClass": "l06.e00.pietrofornale.dogMain",
