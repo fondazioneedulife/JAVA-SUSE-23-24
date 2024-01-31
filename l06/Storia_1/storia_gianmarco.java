@@ -1,6 +1,6 @@
 package Storia_1;
 
-public class Storia {
+public class storia_gianmarco {
     public static void main(String[] args) {
 
         Dettagli dettagli = new Ricordi();

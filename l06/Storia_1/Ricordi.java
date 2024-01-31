@@ -3,11 +3,11 @@ package Storia_1;
 public class Ricordi implements Dettagli{
 
     public String getMainCharacter() {
-        return "Paolo";
+        return "Mic";
     }
 
     public String getEnemy() {
-        return "Pietro";
+        return "Pigli";
     }
 
     public String getWork() {
