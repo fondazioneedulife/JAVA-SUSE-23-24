@@ -5,9 +5,9 @@ public class esercizio_school {
 
         get_info d = new info_classi();
 
-        String laMiaStoria = d.getMainCharacter()+", abile "+d.getWork()+", solcava il mare con la sua barca, la \"Sirena d'Argento\". In lontananza, spuntò una nave pirata guidata dal temibile "+d.getEnemy()+". La battaglia fu feroce, ma con astuzia, Marco respinse l'assalto.\n" + //
-                "Mentre la ciurma esultava, "+d.getEvent()+". Marco e la ciurma videro"+ d.getActivity()+", e li, si risollevarono le tensioni.\n" + //
-                "Il sole tramontò, dipingendo il cielo di tonalità calde. Quella giornata divenne leggenda, una storia di coraggio e magia tra le onde del vasto mare.\n" + //
+        String laMiaStoria = d.getMainCharacter()+", abile "+d.getWork()+", solcava il mare con la sua barca, la \"Sirena del Frosinone\". In lontananza, spuntò una nave albina guidata dal temibile "+d.getEnemy()+". La battaglia fu feroce ed esaltante, tra battaglie e amori, ma con astuzia, Fernando respinse l'assalto.\n" + //
+                "Mentre la ciurma esultava e applaudiva, "+d.getEvent()+". Ernesto e la ciurma videro la dolce "+ d.getActivity()+", e li, si risollevarono dalle tensioni.\n" + //
+                "Il sole tramontò, dipingendo il cielo di tonalità calde come il faccino di Maria. Quella giornata divenne leggenda, una storia di coraggio e magia tra le onde e le paglie immerse nel vasto mare delle Tre Marie.\n" + //
                 "";
 
         System.out.println(laMiaStoria);
