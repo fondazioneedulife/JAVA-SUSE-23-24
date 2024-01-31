@@ -4,6 +4,12 @@
     {
       "type": "java",
 <<<<<<< HEAD
+      "name": "Soluzione",
+      "request": "launch",
+      "mainClass": "l06.e00.Docente.Soluzione",
+      "projectName": "JAVA-SUSE-23-24_28e870bb"
+=======
+<<<<<<< HEAD
       "name": "testFarm",
       "request": "launch",
       "mainClass": "l06.e00.pietrofornale.testFarm",
@@ -21,6 +27,7 @@
       "mainClass": "l06.e00.Docente.Soluzione",
       "projectName": "JAVA-SUSE-23-24_aaa57d32"
 >>>>>>> 0ea493aa4756d66aecdd782a5e3d8f431dc16f20
+>>>>>>> 584af2406c2f4012bc68a4a1d1d3c8bd60f12322
     },
     {
       "type": "java",
