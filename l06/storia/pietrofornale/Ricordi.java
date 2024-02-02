@@ -1,26 +1,25 @@
-package Docente;
+package pietrofornale;
 
 public class Ricordi implements Dettagli{
 
     public String getMainCharacter() {
-        return "Paolo";
+        return "Abdul";
     }
 
     public String getEnemy() {
-        return "Pietro";
+        return "Stati Uniti d'America";
     }
 
     public String getWork() {
-        return "marinaio";
+        return "talebano";
     }
     
     public String getEvent() {
-      return "arrivò una grande onda";
+      return "";
     }
 
     
     public String getActivity() {
-       return "brindisi tutti assieme";
+       return "brindavano tutti assieme";
     }
-    
 }

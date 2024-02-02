@@ -14,6 +14,6 @@ public class ricordi implements dettagli{
         return "dipendente sottopagato dell'Enel";
     }
     public String getEnemy(){
-        return "cliente incazzato via telefono";
+        return "cliente infuriato via telefono";
     }
 }

@@ -1,25 +1,23 @@
-package l06.e03.pietrofornale;
-
 public class Ricordi implements Dettagli{
 
     public String getMainCharacter() {
-        return "Paolo";
+        return "Anton Cigourh";
     }
 
     public String getEnemy() {
-        return "Pietro";
+        return "John Wick";
     }
 
     public String getWork() {
-        return "un abile marinaio";
+        return "L'intimidatore";
     }
     
     public String getEvent() {
-      return "arrivò una grande onda";
+      return "arrivò una grande Bombarolo insieme all'esercito di scheletri";
     }
 
     
     public String getActivity() {
-       return "brindarono tutti assieme";
+       return "John uccide Anton";
     }
 }

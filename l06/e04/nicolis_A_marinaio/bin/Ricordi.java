@@ -1,6 +1,8 @@
-package Docente;
+package l06.e04.nicolis_A_marinaio.bin;
 
-public class Ricordi implements Dettagli{
+import l06.e03.pietrofornale.Dettagli;
+
+public class Ricordi implements Dettagli {
 
     public String getMainCharacter() {
         return "Paolo";
@@ -11,7 +13,7 @@ public class Ricordi implements Dettagli{
     }
 
     public String getWork() {
-        return "marinaio";
+        return "un abile marinaio";
     }
     
     public String getEvent() {
@@ -20,7 +22,6 @@ public class Ricordi implements Dettagli{
 
     
     public String getActivity() {
-       return "brindisi tutti assieme";
+       return "brindarono tutti assieme";
     }
-    
 }
