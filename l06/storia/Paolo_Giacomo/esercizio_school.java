@@ -1,4 +1,4 @@
-package l06.storia.Paolo_Giacomo;
+package Paolo_Giacomo;
 
 public class esercizio_school {
     public static void main(String[] args) {
