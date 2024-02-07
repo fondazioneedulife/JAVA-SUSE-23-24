@@ -1,0 +1,6 @@
+Stampare i numeri pari da 1 a 100, poi stampare i numeri dispari da 1 a 40
+
+Generare un array lungo 20 di numeri casuali compresi tra n ed m inseriti da utente, a questo punto stampare l’array e successivamente stamparlo capovolto (dall’ultimo elemento al primo) e raddoppiando ogni numero 
+
+Scrivere un programma che individui il valore massimo e minimo all’interno di un array lungo n (inserito da utente) di numeri generati casualmente da -8 a 15.
+

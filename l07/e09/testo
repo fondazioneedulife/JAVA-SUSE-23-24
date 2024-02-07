@@ -1,0 +1,9 @@
+Data un ArrayList di numeri restituire una collection in cui tutti gli elementi dell’arraylist non siano ripetuti. Suggerimento: usare HashSet.
+Esempio:
+con [1,2,2,3,2,2,3] la funzione ritorna [1,2,3]
+
+Data un ArrayList di numeri restituire un ArrayList in cui tutti gli elementi adiacenti uguali sono stati ridotti ad un singolo elemento.
+Esempio:
+con [1,2,2,3,2,2,3] la funzione ritorna [1,2,3,2,3]
+
+Dati due ArrayList ordinati in ordine crescente, creare e restituire un’unica lista di tutti gli elementi ordinati.

@@ -3,13 +3,6 @@
   "configurations": [
     {
       "type": "java",
-      "name": "TestGiocatore",
-      "request": "launch",
-      "mainClass": "l05.e01.davide.TestGiocatore",
-      "projectName": "JAVA-SUSE-23-24_8e8015bc"
-    },
-    {
-      "type": "java",
       "name": "soluzione",
       "request": "launch",
       "mainClass": "l04.e01.docente.soluzione",

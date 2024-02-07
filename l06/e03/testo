@@ -1,0 +1,15 @@
+Costruiamo il progetto che produce un breve racconto relativo ad una storia marinaresca.
+
+
+il progetto si serve di una interfaccia “dettagli” che deve collegarsi con la storia di Bones.
+
+
+Nello specifico la libreria fornisce elementi utili alla narrazione, dovrà implementare l’interfaccia con i seguenti metodi:
+
+String getMainCharacter(); fornisce il nome del protagonista.
+String getEnemy(); fornisce il nome dell’antagonista.
+String getWork(); fornisce il lavoro del protagonista.
+String getEvent(); fornisce un’intera frase che costituisce un evento inaspettato
+String getActivity(); fornisce un’attività ricreativa 
+
+Nella seconda fase del gioco si possono scambiare le classi che implementano l’interfaccia ottenendo un sacco di storie inaspettate!

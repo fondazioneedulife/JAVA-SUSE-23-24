@@ -14,22 +14,22 @@ public class soluzione {
         // Creazione dell'oggetto zanetti con il costruttore personalizzato
         Giocatore zanetti = new Giocatore("Javier Zanetti", false, 40, 10);
 
-        // Creazione dell'oggetto delPiero con il costruttore di default e input da tastiera
-        Giocatore delPiero = new Giocatore();
+        // Creazione dell'oggetto Del_Piero con il costruttore di default e input da tastiera
+        Giocatore Del_Piero = new Giocatore();
         // Utilizza la classe Scanner per leggere input da tastiera
         Scanner scanner = new Scanner(System.in);
 
-        System.out.println("Inserisci il nome del giocatore delPiero: ");
-        delPiero.setNome(scanner.nextLine());
+        System.out.println("Inserisci il nome del giocatore Del_Piero  : ");
+        Del_Piero  .setNome(scanner.nextLine());
 
-        System.out.println("Il giocatore delPiero è capitano? (true/false): ");
-        delPiero.setCapitano(scanner.nextBoolean());
+        System.out.println("Il giocatore Del_Piero  è capitano? (true/false): ");
+        Del_Piero  .setCapitano(scanner.nextBoolean());
 
-        System.out.println("Inserisci il numero di goal del giocatore delPiero: ");
-        delPiero.setGoal(scanner.nextInt());
+        System.out.println("Inserisci il numero di goal del giocatore Del_Piero: ");
+        Del_Piero  .setGoal(scanner.nextInt());
 
-        System.out.println("Inserisci il numero di goal della nazionale del giocatore delPiero: ");
-        delPiero.setGoalNazionale(scanner.nextInt());
+        System.out.println("Inserisci il numero di goal della nazionale del giocatore Del_Piero: ");
+        Del_Piero  .setGoalNazionale(scanner.nextInt());
 
         // Chiudi lo scanner
         scanner.close();
@@ -37,11 +37,11 @@ public class soluzione {
         // Stampare i dettagli dei giocatori
         System.out.println("Dettagli di Totti: " + totti);
         System.out.println("Dettagli di Zanetti: " + zanetti);
-        System.out.println("Dettagli di delPiero: " + delPiero);
+        System.out.println("Dettagli di Del_Piero  : " + Del_Piero   );
 
         // Calcolare e stampare la somma dei goal totali per ogni giocatore
         System.out.println("Goal totali di Totti: " + totti.calcolaGoalTotali());
         System.out.println("Goal totali di Zanetti: " + zanetti.calcolaGoalTotali());
-        System.out.println("Goal totali di delPiero: " + delPiero.calcolaGoalTotali());
+        System.out.println("Goal totali di Del_Piero   : " + Del_Piero.calcolaGoalTotali());
     }
 }

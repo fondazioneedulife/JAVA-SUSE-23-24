@@ -1,0 +1,3 @@
+l’interfaccia ci passerà non più stringhe ma oggetti generici di tipo Object, quindi ora il “narratore”
+riesce a capire se sto passando un Pirata, un Marinaio che sono sottoclassi di Umano, e hanno specifici metodi, 
+o se stiamo passando MostroMarino, che non è un Umano e ha metodi completamente differenti. 
