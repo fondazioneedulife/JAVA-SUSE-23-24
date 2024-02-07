@@ -20,7 +20,7 @@ public class Rettangolo extends Quadrilatero implements BaseFigura {
 
     @Override
     public String lati() {
-        return "Lati del rettangolo: " + base + ", " + altezza;
+        return "Lati: " + base + ", " + altezza;
     }
 
 }
