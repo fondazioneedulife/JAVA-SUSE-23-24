@@ -2,10 +2,9 @@
 // che utilizzi i metodi della classe per il calcolo dell'area per poter restituire
 // il volume del solido. 
 
-
 package l07.e01.DiegoE01;
 
-class DiegoParallalelepipedo extends DiegoAreaRettangolo {
+public class DiegoParallelepipedo extends DiegoAreaRettangolo {
     private double depth;
     
     public DiegoParallelepipedo(double b, double h, double depth) {
@@ -19,6 +18,7 @@ class DiegoParallalelepipedo extends DiegoAreaRettangolo {
 
     @Override
     public String lati() {
-        return "Lati del parallelepipedo: " + super.lati() + ", " + depth;
+        return "Lati parallelepipedo: " + super.lati() + ", " + depth;
     }
+    
 }
