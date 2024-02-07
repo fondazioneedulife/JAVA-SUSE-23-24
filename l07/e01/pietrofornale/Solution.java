@@ -17,7 +17,5 @@ public class Solution {
     Parallelepiped para = new Parallelepiped(5, 10, 3);
     System.out.println("\nParallelepiped's Volume: " + para.volume());
     System.out.println("Parallelepiped: " + para.sides());
-
   }
-  
 }
