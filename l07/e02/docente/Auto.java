@@ -1,4 +1,4 @@
-package l06.e02.docente;
+package l07.e02.docente;
 
 // Classe Auto che estende VeicoloAMotore
 public class Auto extends VeicoloAMotore {

@@ -1,4 +1,4 @@
-package l06.e02.docente;
+package l07.e02.docente;
 
 // Classe Garage che gestisce i veicoli
 public class Garage {
