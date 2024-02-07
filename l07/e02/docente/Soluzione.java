@@ -1,4 +1,4 @@
-package l06.e02.docente;
+package l07.e02.docente;
 
 public class Soluzione {
     public static void main(String[] args) {

@@ -1,4 +1,4 @@
-package l06.e01.docente;
+package l07.e01.docente;
 
 // Implementazione della classe Rettangolo
 class Rettangolo extends Quadrilatero implements FiguraConLati {
