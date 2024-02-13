@@ -1,4 +1,4 @@
-package l03.e03.pietrofornale;
+package l03.e03.pietroFornale;
 import java.util.Scanner;
 
 public class wizardName {
