@@ -4,6 +4,7 @@ public class Parallepipedo extends Rettangolo {
     private double profondita;
 
     public Parallepipedo() {
+        super();
         this.profondita = 1;
     }
 

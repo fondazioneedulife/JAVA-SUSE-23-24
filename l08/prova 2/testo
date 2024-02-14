@@ -1,0 +1,3 @@
+Leggere  un array di 10 interi e stampare solo i numeri che appaiono nell’array una volta soltanto. Ad esempio se l’array contiene  1, 2, 3, 1, 2, 4  il programma stamperà  3, 4
+Creare un array di interi con 8 posizioni e riempirlo con numeri casuali compresi tra 1 e 90 senza ripetizioni. Stampare man mano il contenuto dell’array.
+Creare un programma che calcoli la media di 10 numeri inseriti da tastiera
