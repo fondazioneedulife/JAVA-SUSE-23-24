@@ -1,1 +1,10 @@
-primo esercizio collection
+Si vuole creare un programma che riesca a gestire un distributore di merendine usando un HashMap.
+Usiamo al posto degli Euro i centesimi.
+Il distributore contiene:
+	merendine fiesta da 80 centesimi
+	merendine kinder bueno da 90 centesimi
+	succhi di frutta da 45 centesimi
+	merendine oreo da 90 centesimi
+Scrivere una funzione che mi indichi il più costoso.
+Scrivere una funzione che stampi una lista di merendine che abbia sia il costo minore di 1 euro sia un numero di lettere pari nel nome.
+
