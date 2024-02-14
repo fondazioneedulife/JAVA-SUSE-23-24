@@ -3,6 +3,13 @@
   "configurations": [
     {
       "type": "java",
+      "name": "Docente",
+      "request": "launch",
+      "mainClass": "l08.prova06.Docente.Docente",
+      "projectName": "JAVA-SUSE-23-24_aaa57d32"
+    },
+    {
+      "type": "java",
       "name": "Lannister",
       "request": "launch",
       "mainClass": "l08.prova01.Lannister",
