@@ -3,6 +3,20 @@
   "configurations": [
     {
       "type": "java",
+      "name": "Lannister",
+      "request": "launch",
+      "mainClass": "l08.prova01.Lannister",
+      "projectName": "JAVA-SUSE-23-24_881de181"
+    },
+    {
+      "type": "java",
+      "name": "davidestark",
+      "request": "launch",
+      "mainClass": "l08.prova01.davidestark",
+      "projectName": "JAVA-SUSE-23-24_aaa57d32"
+    },
+    {
+      "type": "java",
       "name": "soluzione",
       "request": "launch",
       "mainClass": "l04.e01.docente.soluzione",

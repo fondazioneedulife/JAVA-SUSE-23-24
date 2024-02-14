@@ -1,3 +1,4 @@
+package l08.prova01;
 import java.util.ArrayList;
 import java.util.Random;
 public class davidestark {

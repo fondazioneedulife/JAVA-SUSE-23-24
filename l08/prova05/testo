@@ -1,0 +1,8 @@
+
+Creare un programma che stampa le informazioni (nome, anno di entrata, salario, indirizzo) di tre dipendenti creando una classe chiamata ‘Dipendente’. 
+L’output dovrebbe essere:
+Nome        Anno di assunzione        Indirizzo			Salario
+Robert            2022             	           64C- Wall Street	100000 $
+Sam                2023                          68D- Wall Street	120000 $
+John                2024                          26B- Wall Street	150000 $
+Inserire i tre dipendenti in una classe chiamata Azienda che ha un Arraylist di dipendenti, quindi un Arraylist di “Dipendente”

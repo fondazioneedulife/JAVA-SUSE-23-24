@@ -1,0 +1,5 @@
+Scrivi un programma Java che prenda in input una 
+lista di numeri interi e restituisca una nuova 
+lista contenente solo i numeri primi presenti 
+nella lista originale.
+Assicurati di utilizzare ArrayList per gestire le liste.
