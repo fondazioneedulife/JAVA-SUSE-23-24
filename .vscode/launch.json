@@ -3,6 +3,13 @@
   "configurations": [
     {
       "type": "java",
+      "name": "Lannister",
+      "request": "launch",
+      "mainClass": "l08.prova01.Lannister",
+      "projectName": "JAVA-SUSE-23-24_881de181"
+    },
+    {
+      "type": "java",
       "name": "davidestark",
       "request": "launch",
       "mainClass": "l08.prova01.davidestark",
